@@ -1,0 +1,177 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*CUSTOM STYLES*/
+
+body {
+  background: url("pattern9.jpg");
+}
+
+h1 {
+  color: #efefef;
+  font-family:'DIN Next W01 Light';
+  font-size: 2em;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+  /*width: 800px;*/
+  /*outline: 1px solid #999;*/
+}
+
+nav {
+  margin: 0 auto;
+  width: 960px;
+  /*outline: 1px solid gold;*/
+}
+
+nav li {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: #efefef;
+  display: inline;
+  height: auto;
+  margin: 0;
+  margin-left: 4px;
+  padding: 0;
+  width: auto;
+}
+nav li.active,
+nav li a {
+  display: block;
+  padding: 8px 8px 8px 8px;
+}
+
+.container {
+  /*background-color: #fff;*/
+  margin: 0 auto;
+  /*outline: 1px solid yellow;*/
+  overflow: auto;
+  width: 80%;
+}
+
+ul {
+  /*background-color: rgba(105, 85, 90, 0.9);*/
+  margin: 0 auto;
+  overflow: auto;
+  /*padding: 10px;*/
+  width: 960px;
+  /*width: 100%;*/
+  text-align: center;
+  /*outline: 1px solid #000;*/
+}
+
+li {
+  color: #efefef;
+  float: left;
+  font-family:'DIN Next W01 Light';
+  height: 260px;
+  margin: 5px;
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
+  padding: 12px 5px 0px 5px;
+  text-align: center;
+  width: 220px;
+  background: rgba(23,25,28,.8);
+  /*background-image: -moz-linear-gradient(0% 100% 90deg,#000000, #0F0F0F);*/
+  -webkit-transition: background 0.5s ease;
+  -moz-transition: background 0.5s ease;
+  -o-transition: background 0.5s ease;
+  transition: background 0.5s ease;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  border-radius: 14px;
+}
+
+li a {
+  color: #efefef;
+  display: block;
+  text-decoration: none;
+  /*outline: 1px solid yellow;*/
+}
+
+nav li a,
+li h2 {
+  /*opacity: .25;*/
+  color: rgba(239, 239, 239, 0.25);
+  -webkit-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+  font-family:'DIN Next W01 Light';
+}
+
+/*li.active {
+  color: rgba(239, 239, 239, 1);
+  outline: 1px dotted yellow;
+}*/
+
+nav li.active,
+nav li a:hover,
+li:hover h2 {
+  /*opacity: 1;*/
+  color: rgba(239, 239, 239, 1);
+}
+
+li:hover {
+  background: rgba(10,10,10,1);
+}
+
+li h2 {
+  padding-top: 20px;
+  /*opacity: .2;*/
+}
+
+li img {
+  /*-webkit-border-radius: 12px 12px 0px 0px;*/
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  width: 200px;
+  height: 200px;
+}

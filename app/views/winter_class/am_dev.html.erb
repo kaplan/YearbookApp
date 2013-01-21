@@ -1,0 +1,29 @@
+
+<nav>
+ <h1>AM DEV CLASS</h1>
+  <ul>
+    <li class="active">AM</li>
+    <li><a href="/pm">PM</a></li>
+  </ul>
+</nav>
+
+<div class = "container">
+  <ul>
+  <% @am_students.shuffle.each do |student| %>
+    <li>
+    <% if student.twitter != "" %>
+      <%# introduction = "#{first} #{last} is from the great city of #{hometown}!" %>
+      <%# twitter_url = "https://twitter.com/#{@twitter}" %>
+      <a href=<%="https://twitter.com/#{student.twitter}"%>>
+    <%# else %>
+      <!-- <a href=""> -->
+    <% end %>
+      <img src="<%= student.photo_url %>" alt="<%= student.name %>" title="<%= student.name %>"/>
+      <h2><%= student.name %></h2>
+    <% if student.twitter != "" %>
+      </a>
+    <% end %>
+    </li>
+  <% end %>
+  </ul>
+</div>
