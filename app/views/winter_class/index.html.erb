@@ -1,19 +1,32 @@
 <nav>
- <h1>TSL Winter Web Dev Class
+ <h1>TSL Winter Web Dev
   <% if @class_section != nil %>
-  <%= @class_section.upcase %>
+    <%= @class_section.upcase %>
   <% end %>
-  </h1>
+  Class</h1>
 
   <ul>
-    <li>
-    <%# if @class_section == "am" %>
-
-      <!-- <li class = "active"> -->
-    <%# end %>
+    <% if @class_section == "am" %>
+      <li class = "active">
+    <% else %>
+      <li>
+    <% end %>
     <a href="/students?section=am">AM</a></li>
-    <li><a href="/students?section=pm">PM</a></li>
-    <li><a href="/students">INDEX</a></li>
+
+    <% if @class_section == "pm" %>
+      <li class = "active">
+    <% else %>
+      <li>
+    <% end %>
+    <a href="/students?section=pm">PM</a></li>
+
+    <% if @class_section == nil %>
+      <li class = "active">
+    <% else %>
+      <li>
+    <% end %>
+    <a href="/students">INDEX</a></li>
+
   </ul>
 </nav>
 

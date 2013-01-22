@@ -29577,3 +29577,1560 @@ Served asset /application.js - 304 Not Modified (0ms)
 
 Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-22 13:59:57 -0600
 Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-01-22 16:37:09 -0600
+Connecting to database specified by database.yml
+Served asset /rails.png - 200 OK (1ms)
+
+
+Started GET "/students" for 127.0.0.1 at 2013-01-22 16:37:15 -0600
+Processing by WinterClassController#index as HTML
+  Rendered winter_class/_students.html.erb (1.2ms)
+  Rendered winter_class/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 991ms (Views: 35.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-22 16:37:16 -0600
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-22 16:37:16 -0600
+Served asset /style.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-22 16:37:16 -0600
+Served asset /jquery.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-22 16:37:16 -0600
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-22 16:37:16 -0600
+Served asset /application.js - 200 OK (3ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-22 16:37:16 -0600
+Served asset /script.js - 200 OK (1ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-22 16:37:16 -0600
+Served asset /pattern9.jpg - 200 OK (1ms)
+
+
+Started GET "/students?section=pm" for 127.0.0.1 at 2013-01-22 16:37:23 -0600
+Processing by WinterClassController#index as HTML
+  Parameters: {"section"=>"pm"}
+  Rendered winter_class/_students.html.erb (0.4ms)
+  Rendered winter_class/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 120ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-22 16:37:24 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-22 16:37:24 -0600
+Served asset /script.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-22 16:37:24 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-22 16:37:24 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/students?section=am" for 127.0.0.1 at 2013-01-22 16:37:26 -0600
+Processing by WinterClassController#index as HTML
+  Parameters: {"section"=>"am"}
+  Rendered winter_class/_students.html.erb (1.0ms)
+  Rendered winter_class/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 182ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-22 16:37:27 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-22 16:37:27 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-22 16:37:27 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-22 16:37:27 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/students" for 127.0.0.1 at 2013-01-22 16:37:28 -0600
+Processing by WinterClassController#index as HTML
+  Rendered winter_class/_students.html.erb (1.3ms)
+  Rendered winter_class/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 270ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-22 16:37:29 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-22 16:37:29 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-22 16:37:29 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-22 16:37:29 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/students?section=pm" for 127.0.0.1 at 2013-01-22 16:37:35 -0600
+Processing by WinterClassController#index as HTML
+  Parameters: {"section"=>"pm"}
+  Rendered winter_class/_students.html.erb (0.6ms)
+  Rendered winter_class/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 209ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-22 16:37:35 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-22 16:37:35 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-22 16:37:35 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-22 16:37:35 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/students?section=am" for 127.0.0.1 at 2013-01-22 16:37:37 -0600
+Processing by WinterClassController#index as HTML
+  Parameters: {"section"=>"am"}
+  Rendered winter_class/_students.html.erb (0.5ms)
+  Rendered winter_class/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 145ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-22 16:37:37 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-22 16:37:37 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-22 16:37:37 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-22 16:37:37 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/students?section=pm" for 127.0.0.1 at 2013-01-22 16:40:04 -0600
+Processing by WinterClassController#index as HTML
+  Parameters: {"section"=>"pm"}
+  Rendered winter_class/_students.html.erb (0.5ms)
+  Rendered winter_class/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 119ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-22 16:40:04 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-22 16:40:04 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-22 16:40:04 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-22 16:40:04 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/students?section=am" for 127.0.0.1 at 2013-01-22 16:40:49 -0600
+Processing by WinterClassController#index as HTML
+  Parameters: {"section"=>"am"}
+  Rendered winter_class/_students.html.erb (0.5ms)
+  Rendered winter_class/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 115ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-22 16:40:49 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-22 16:40:49 -0600
+Served asset /script.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-22 16:40:49 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-22 16:40:49 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/students?section=am" for 127.0.0.1 at 2013-01-22 16:41:00 -0600
+Processing by WinterClassController#index as HTML
+  Parameters: {"section"=>"am"}
+  Rendered winter_class/_students.html.erb (0.6ms)
+  Rendered winter_class/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 110ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-22 16:41:00 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-22 16:41:00 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-22 16:41:00 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-22 16:41:00 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-22 16:41:00 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-22 16:41:00 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-22 16:41:00 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students?section=am" for 127.0.0.1 at 2013-01-22 16:41:41 -0600
+Processing by WinterClassController#index as HTML
+  Parameters: {"section"=>"am"}
+  Rendered winter_class/_students.html.erb (0.9ms)
+  Rendered winter_class/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 178ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-22 16:41:41 -0600
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-22 16:41:41 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-22 16:41:41 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-22 16:41:41 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-22 16:41:41 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-22 16:41:41 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-22 16:41:41 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students?section=am" for 127.0.0.1 at 2013-01-22 16:42:12 -0600
+Processing by WinterClassController#index as HTML
+  Parameters: {"section"=>"am"}
+  Rendered winter_class/_students.html.erb (0.5ms)
+  Rendered winter_class/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 116ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-22 16:42:13 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-22 16:42:13 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-22 16:42:13 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-22 16:42:13 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-22 16:42:13 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-22 16:42:13 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-22 16:42:13 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students?section=am" for 127.0.0.1 at 2013-01-22 16:42:26 -0600
+Processing by WinterClassController#index as HTML
+  Parameters: {"section"=>"am"}
+  Rendered winter_class/_students.html.erb (0.8ms)
+  Rendered winter_class/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 131ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-22 16:42:26 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-22 16:42:26 -0600
+Served asset /style.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-22 16:42:26 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-22 16:42:26 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-22 16:42:26 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-22 16:42:26 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-22 16:42:27 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students?section=am" for 127.0.0.1 at 2013-01-22 16:43:14 -0600
+Processing by WinterClassController#index as HTML
+  Parameters: {"section"=>"am"}
+  Rendered winter_class/_students.html.erb (0.5ms)
+  Rendered winter_class/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 147ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-22 16:43:14 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-22 16:43:14 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-22 16:43:14 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-22 16:43:14 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-22 16:43:14 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-22 16:43:14 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-22 16:43:14 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students?section=am" for 127.0.0.1 at 2013-01-22 16:45:00 -0600
+Processing by WinterClassController#index as HTML
+  Parameters: {"section"=>"am"}
+  Rendered winter_class/_students.html.erb (0.9ms)
+  Rendered winter_class/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 221ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-22 16:45:01 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-22 16:45:01 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-22 16:45:01 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-22 16:45:01 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-22 16:45:01 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-22 16:45:01 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-22 16:45:01 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students?section=am" for 127.0.0.1 at 2013-01-22 16:47:22 -0600
+Processing by WinterClassController#index as HTML
+  Parameters: {"section"=>"am"}
+  Rendered winter_class/_students.html.erb (0.9ms)
+  Rendered winter_class/index.html.erb within layouts/application (1.9ms)
+Compiled style.css  (0ms)  (pid 4112)
+Compiled application.css  (0ms)  (pid 4112)
+Completed 200 OK in 173ms (Views: 35.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-22 16:47:22 -0600
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-22 16:47:22 -0600
+Served asset /style.css - 200 OK (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-22 16:47:22 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-22 16:47:22 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-22 16:47:22 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-22 16:47:22 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-22 16:47:22 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students?section=am" for 127.0.0.1 at 2013-01-22 16:47:38 -0600
+Processing by WinterClassController#index as HTML
+  Parameters: {"section"=>"am"}
+  Rendered winter_class/_students.html.erb (0.5ms)
+  Rendered winter_class/index.html.erb within layouts/application (1.1ms)
+Compiled style.css  (0ms)  (pid 4112)
+Compiled application.css  (0ms)  (pid 4112)
+Completed 200 OK in 150ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-22 16:47:38 -0600
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-22 16:47:38 -0600
+Served asset /style.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-22 16:47:38 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-22 16:47:38 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-22 16:47:38 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-22 16:47:38 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-22 16:47:38 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students?section=am" for 127.0.0.1 at 2013-01-22 16:48:27 -0600
+Processing by WinterClassController#index as HTML
+  Parameters: {"section"=>"am"}
+  Rendered winter_class/_students.html.erb (0.9ms)
+  Rendered winter_class/index.html.erb within layouts/application (1.9ms)
+Compiled style.css  (0ms)  (pid 4112)
+Compiled application.css  (0ms)  (pid 4112)
+Completed 200 OK in 181ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-22 16:48:27 -0600
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-22 16:48:27 -0600
+Served asset /style.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-22 16:48:27 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-22 16:48:27 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-22 16:48:27 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-22 16:48:27 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-22 16:48:27 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students?section=am" for 127.0.0.1 at 2013-01-22 16:49:40 -0600
+Processing by WinterClassController#index as HTML
+  Parameters: {"section"=>"am"}
+  Rendered winter_class/_students.html.erb (0.4ms)
+  Rendered winter_class/index.html.erb within layouts/application (1.0ms)
+Compiled style.css  (0ms)  (pid 4112)
+Compiled application.css  (0ms)  (pid 4112)
+Completed 200 OK in 131ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-22 16:49:41 -0600
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-22 16:49:41 -0600
+Served asset /style.css - 200 OK (12ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-22 16:49:41 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-22 16:49:41 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-22 16:49:41 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-22 16:49:41 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-22 16:49:41 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students?section=am" for 127.0.0.1 at 2013-01-22 16:50:53 -0600
+Processing by WinterClassController#index as HTML
+  Parameters: {"section"=>"am"}
+  Rendered winter_class/_students.html.erb (1.0ms)
+  Rendered winter_class/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 153ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-22 16:50:53 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-22 16:50:53 -0600
+Served asset /style.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-22 16:50:53 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-22 16:50:53 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-22 16:50:53 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-22 16:50:53 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/students?section=pm" for 127.0.0.1 at 2013-01-22 16:50:56 -0600
+Processing by WinterClassController#index as HTML
+  Parameters: {"section"=>"pm"}
+  Rendered winter_class/_students.html.erb (1.0ms)
+  Rendered winter_class/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 1108ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-22 16:50:58 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-22 16:50:58 -0600
+Served asset /style.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-22 16:50:58 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-22 16:50:58 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-22 16:50:58 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-22 16:50:58 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/students?section=pm" for 127.0.0.1 at 2013-01-22 16:52:20 -0600
+Processing by WinterClassController#index as HTML
+  Parameters: {"section"=>"pm"}
+  Rendered winter_class/_students.html.erb (0.7ms)
+  Rendered winter_class/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 133ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-22 16:52:20 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-22 16:52:20 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-22 16:52:20 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-22 16:52:20 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-22 16:52:20 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-22 16:52:20 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/students?section=am" for 127.0.0.1 at 2013-01-22 16:52:24 -0600
+Processing by WinterClassController#index as HTML
+  Parameters: {"section"=>"am"}
+  Rendered winter_class/_students.html.erb (0.4ms)
+  Rendered winter_class/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 124ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-22 16:52:25 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-22 16:52:25 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-22 16:52:25 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-22 16:52:25 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-22 16:52:25 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-22 16:52:25 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/students?section=pm" for 127.0.0.1 at 2013-01-22 16:52:43 -0600
+Processing by WinterClassController#index as HTML
+  Parameters: {"section"=>"pm"}
+  Rendered winter_class/_students.html.erb (0.7ms)
+  Rendered winter_class/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 135ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-22 16:52:43 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-22 16:52:43 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-22 16:52:43 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-22 16:52:43 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-22 16:52:43 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-22 16:52:43 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/students?section=pm" for 127.0.0.1 at 2013-01-22 17:19:59 -0600
+Processing by WinterClassController#index as HTML
+  Parameters: {"section"=>"pm"}
+  Rendered winter_class/_students.html.erb (1.1ms)
+  Rendered winter_class/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 142ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-22 17:19:59 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-22 17:19:59 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-22 17:19:59 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-22 17:19:59 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-22 17:19:59 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-22 17:19:59 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-22 17:19:59 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students?section=am" for 127.0.0.1 at 2013-01-22 17:20:03 -0600
+Processing by WinterClassController#index as HTML
+  Parameters: {"section"=>"am"}
+  Rendered winter_class/_students.html.erb (0.7ms)
+  Rendered winter_class/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 183ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-22 17:20:03 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-22 17:20:03 -0600
+Served asset /style.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-22 17:20:03 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-22 17:20:03 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-22 17:20:03 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-22 17:20:03 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/students?section=am" for 127.0.0.1 at 2013-01-22 17:21:16 -0600
+Processing by WinterClassController#index as HTML
+  Parameters: {"section"=>"am"}
+  Rendered winter_class/_students.html.erb (0.9ms)
+  Rendered winter_class/index.html.erb within layouts/application (1.9ms)
+Compiled style.css  (0ms)  (pid 4112)
+Compiled application.css  (0ms)  (pid 4112)
+Completed 200 OK in 143ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-22 17:21:16 -0600
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-22 17:21:16 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-22 17:21:16 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-22 17:21:16 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-22 17:21:16 -0600
+Served asset /style.css - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-22 17:21:16 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-22 17:21:17 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students?section=am" for 127.0.0.1 at 2013-01-22 17:21:31 -0600
+Processing by WinterClassController#index as HTML
+  Parameters: {"section"=>"am"}
+  Rendered winter_class/_students.html.erb (12.9ms)
+  Rendered winter_class/index.html.erb within layouts/application (13.7ms)
+Compiled style.css  (0ms)  (pid 4112)
+Compiled application.css  (0ms)  (pid 4112)
+Completed 200 OK in 195ms (Views: 40.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-22 17:21:31 -0600
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-22 17:21:31 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-22 17:21:31 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-22 17:21:31 -0600
+Served asset /style.css - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-22 17:21:31 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-22 17:21:31 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-22 17:21:31 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students?section=am" for 127.0.0.1 at 2013-01-22 17:21:45 -0600
+Processing by WinterClassController#index as HTML
+  Parameters: {"section"=>"am"}
+  Rendered winter_class/_students.html.erb (0.8ms)
+  Rendered winter_class/index.html.erb within layouts/application (1.6ms)
+Compiled style.css  (0ms)  (pid 4112)
+Compiled application.css  (0ms)  (pid 4112)
+Completed 200 OK in 163ms (Views: 33.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-22 17:21:45 -0600
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-22 17:21:45 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-22 17:21:45 -0600
+Served asset /style.css - 200 OK (1ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-22 17:21:45 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-22 17:21:45 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-22 17:21:45 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-22 17:21:45 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students?section=am" for 127.0.0.1 at 2013-01-22 17:22:21 -0600
+Processing by WinterClassController#index as HTML
+  Parameters: {"section"=>"am"}
+  Rendered winter_class/_students.html.erb (0.9ms)
+  Rendered winter_class/index.html.erb within layouts/application (1.9ms)
+Compiled style.css  (0ms)  (pid 4112)
+Compiled application.css  (0ms)  (pid 4112)
+Completed 200 OK in 129ms (Views: 16.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-22 17:22:21 -0600
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-22 17:22:21 -0600
+Served asset /style.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-22 17:22:21 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-22 17:22:21 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-22 17:22:21 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-22 17:22:21 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-22 17:22:21 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students?section=am" for 127.0.0.1 at 2013-01-22 17:22:43 -0600
+Processing by WinterClassController#index as HTML
+  Parameters: {"section"=>"am"}
+  Rendered winter_class/_students.html.erb (0.9ms)
+  Rendered winter_class/index.html.erb within layouts/application (1.9ms)
+Compiled style.css  (0ms)  (pid 4112)
+Compiled application.css  (0ms)  (pid 4112)
+Completed 200 OK in 165ms (Views: 27.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-22 17:22:43 -0600
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-22 17:22:43 -0600
+Served asset /style.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-22 17:22:43 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-22 17:22:43 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-22 17:22:43 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-22 17:22:43 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-22 17:22:43 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students?section=am" for 127.0.0.1 at 2013-01-22 17:23:02 -0600
+Processing by WinterClassController#index as HTML
+  Parameters: {"section"=>"am"}
+  Rendered winter_class/_students.html.erb (0.7ms)
+  Rendered winter_class/index.html.erb within layouts/application (1.4ms)
+Compiled style.css  (0ms)  (pid 4112)
+Compiled application.css  (0ms)  (pid 4112)
+Completed 200 OK in 233ms (Views: 31.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-22 17:23:02 -0600
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-22 17:23:02 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-22 17:23:02 -0600
+Served asset /style.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-22 17:23:02 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-22 17:23:02 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-22 17:23:02 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-22 17:23:02 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students?section=am" for 127.0.0.1 at 2013-01-22 17:23:05 -0600
+Processing by WinterClassController#index as HTML
+  Parameters: {"section"=>"am"}
+  Rendered winter_class/_students.html.erb (0.9ms)
+  Rendered winter_class/index.html.erb within layouts/application (1.9ms)
+Compiled style.css  (0ms)  (pid 4112)
+Compiled application.css  (0ms)  (pid 4112)
+Completed 200 OK in 152ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-22 17:23:05 -0600
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-22 17:23:05 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-22 17:23:05 -0600
+Served asset /style.css - 200 OK (1ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-22 17:23:05 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-22 17:23:05 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-22 17:23:05 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-22 17:23:05 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students?section=am" for 127.0.0.1 at 2013-01-22 17:25:09 -0600
+Processing by WinterClassController#index as HTML
+  Parameters: {"section"=>"am"}
+  Rendered winter_class/_students.html.erb (0.9ms)
+  Rendered winter_class/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 179ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-22 17:25:09 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-22 17:25:09 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-22 17:25:09 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-22 17:25:09 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-22 17:25:09 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-22 17:25:09 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/students?section=pm" for 127.0.0.1 at 2013-01-22 17:25:13 -0600
+Processing by WinterClassController#index as HTML
+  Parameters: {"section"=>"pm"}
+  Rendered winter_class/_students.html.erb (1.2ms)
+  Rendered winter_class/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 133ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-22 17:25:13 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-22 17:25:13 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-22 17:25:13 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-22 17:25:13 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-22 17:25:13 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-22 17:25:13 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/students" for 127.0.0.1 at 2013-01-22 17:25:15 -0600
+Processing by WinterClassController#index as HTML
+  Rendered winter_class/_students.html.erb (0.8ms)
+  Rendered winter_class/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 244ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-22 17:25:15 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-22 17:25:15 -0600
+Served asset /script.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-22 17:25:15 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-22 17:25:15 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-22 17:25:15 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-22 17:25:15 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/students?section=am" for 127.0.0.1 at 2013-01-22 17:25:20 -0600
+Processing by WinterClassController#index as HTML
+  Parameters: {"section"=>"am"}
+  Rendered winter_class/_students.html.erb (0.9ms)
+  Rendered winter_class/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 137ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-22 17:25:20 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-22 17:25:20 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-22 17:25:20 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-22 17:25:20 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-22 17:25:20 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-22 17:25:20 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-22 17:25:20 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students?section=pm" for 127.0.0.1 at 2013-01-22 17:25:22 -0600
+Processing by WinterClassController#index as HTML
+  Parameters: {"section"=>"pm"}
+  Rendered winter_class/_students.html.erb (0.5ms)
+  Rendered winter_class/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 108ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-22 17:25:22 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-22 17:25:22 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-22 17:25:22 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-22 17:25:22 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-22 17:25:22 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-22 17:25:22 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/students" for 127.0.0.1 at 2013-01-22 17:25:23 -0600
+Processing by WinterClassController#index as HTML
+  Rendered winter_class/_students.html.erb (1.2ms)
+  Rendered winter_class/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 240ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-22 17:25:23 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-22 17:25:23 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-22 17:25:23 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-22 17:25:23 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-22 17:25:23 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-22 17:25:23 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/students?section=am" for 127.0.0.1 at 2013-01-22 17:25:43 -0600
+Processing by WinterClassController#index as HTML
+  Parameters: {"section"=>"am"}
+  Rendered winter_class/_students.html.erb (0.7ms)
+  Rendered winter_class/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 471ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-22 17:25:44 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-22 17:25:44 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-22 17:25:44 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-22 17:25:44 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-22 17:25:44 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-22 17:25:44 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/students?section=pm" for 127.0.0.1 at 2013-01-22 17:26:09 -0600
+Processing by WinterClassController#index as HTML
+  Parameters: {"section"=>"pm"}
+  Rendered winter_class/_students.html.erb (0.5ms)
+  Rendered winter_class/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 123ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-22 17:26:09 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-22 17:26:09 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-22 17:26:09 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-22 17:26:09 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-22 17:26:09 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-22 17:26:09 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/students" for 127.0.0.1 at 2013-01-22 17:26:10 -0600
+Processing by WinterClassController#index as HTML
+  Rendered winter_class/_students.html.erb (1.7ms)
+  Rendered winter_class/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 255ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-22 17:26:10 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-22 17:26:10 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-22 17:26:10 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-22 17:26:10 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-22 17:26:10 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-22 17:26:10 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/students?section=pm" for 127.0.0.1 at 2013-01-22 17:26:38 -0600
+Processing by WinterClassController#index as HTML
+  Parameters: {"section"=>"pm"}
+  Rendered winter_class/_students.html.erb (0.5ms)
+  Rendered winter_class/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 132ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-22 17:26:38 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-22 17:26:38 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-22 17:26:38 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-22 17:26:38 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-22 17:26:38 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-22 17:26:38 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-22 17:26:38 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students?section=am" for 127.0.0.1 at 2013-01-22 17:26:40 -0600
+Processing by WinterClassController#index as HTML
+  Parameters: {"section"=>"am"}
+  Rendered winter_class/_students.html.erb (0.5ms)
+  Rendered winter_class/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 110ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-22 17:26:40 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-22 17:26:40 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-22 17:26:40 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-22 17:26:40 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-22 17:26:40 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-22 17:26:40 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-22 17:26:40 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students?section=am" for 127.0.0.1 at 2013-01-22 17:27:00 -0600
+Processing by WinterClassController#index as HTML
+  Parameters: {"section"=>"am"}
+  Rendered winter_class/_students.html.erb (1.0ms)
+  Rendered winter_class/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 171ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-22 17:27:01 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-22 17:27:01 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-22 17:27:01 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-22 17:27:01 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-22 17:27:01 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-22 17:27:01 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/students?section=pm" for 127.0.0.1 at 2013-01-22 17:27:04 -0600
+Processing by WinterClassController#index as HTML
+  Parameters: {"section"=>"pm"}
+  Rendered winter_class/_students.html.erb (0.5ms)
+  Rendered winter_class/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 127ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-22 17:27:04 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-22 17:27:04 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-22 17:27:04 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-22 17:27:04 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-22 17:27:04 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-22 17:27:04 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/students?section=am" for 127.0.0.1 at 2013-01-22 17:27:25 -0600
+Processing by WinterClassController#index as HTML
+  Parameters: {"section"=>"am"}
+  Rendered winter_class/_students.html.erb (0.6ms)
+  Rendered winter_class/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 108ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-22 17:27:25 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-22 17:27:25 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-22 17:27:25 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-22 17:27:25 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-22 17:27:25 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-22 17:27:25 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/students" for 127.0.0.1 at 2013-01-22 17:27:31 -0600
+Processing by WinterClassController#index as HTML
+  Rendered winter_class/_students.html.erb (0.8ms)
+  Rendered winter_class/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 235ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-22 17:27:31 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-22 17:27:31 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-22 17:27:31 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-22 17:27:31 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-22 17:27:31 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-22 17:27:31 -0600
+Served asset /application.js - 304 Not Modified (0ms)

@@ -48,6 +48,4 @@ class Student
     @twitter = twitter_handle
   end
 
-
-
 end
