@@ -1,24 +1,25 @@
 require "open-uri"
-
 class WinterClassController < ApplicationController
 
-  def build_student_ary(data, array_to_fill)
-    data.each do |student_hash|
-      student = Student.new
-      student.name = student_hash["name"]
-      student.photo_url = student_hash["photo_url"]
-      student.section = student_hash["section"]
-      student.twitter = student_hash["twitter"]
-      array_to_fill << student
-    end
-  end
+  # def build_student_ary(data, array_to_fill)
+  #   data.each do |student_hash|
+  #     student = Student.new
+  #     student.name = student_hash["name"]
+  #     student.photo_url = student_hash["photo_url"]
+  #     student.section = student_hash["section"]
+  #     student.twitter = student_hash["twitter"]
+  #     array_to_fill << student
+  #   end
+  # end
 
   def am_dev
-    @am_students = []
-    url_am = "http://tslwebdev.herokuapp.com/am.json"
-    am_data = JSON.parse(open(url_am).read)
+    @students = Student.fetch("am")
 
-    build_student_ary(am_data, @am_students)
+    # @am_students = []
+    # url_am = "http://tslwebdev.herokuapp.com/am.json"
+    # am_data = JSON.parse(open(url_am).read)
+
+    # build_student_ary(am_data, @am_students)
 
     # am_data.each do |student_hash|
     #   student = Student.new
@@ -31,11 +32,13 @@ class WinterClassController < ApplicationController
   end
 
   def pm_dev
-    @pm_students = []
-    url_pm = "http://tslwebdev.herokuapp.com/pm.json"
-    pm_data = JSON.parse(open(url_pm).read)
+    @students = Student.fetch("pm")
 
-    build_student_ary(pm_data, @pm_students)
+    # @pm_students = []
+    # url_pm = "http://tslwebdev.herokuapp.com/pm.json"
+    # pm_data = JSON.parse(open(url_pm).read)
+
+    # build_student_ary(pm_data, @pm_students)
 
     # pm_data.each do |student_hash|
     #   student = Student.new

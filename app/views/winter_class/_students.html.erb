@@ -1,0 +1,16 @@
+<div class = "container">
+  <ul>
+  <% @students.shuffle.each do |student| %>
+    <li>
+    <% if student.twitter != "" %>
+      <a href=<%="https://twitter.com/#{student.twitter}"%>>
+    <% end %>
+      <img src="<%= student.photo_url %>" alt="<%= student.name %>" title="<%= student.name %>"/>
+      <h2><%= student.name %></h2>
+    <% if student.twitter != "" %>
+      </a>
+    <% end %>
+    </li>
+  <% end %>
+  </ul>
+</div>

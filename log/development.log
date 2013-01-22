@@ -22600,3 +22600,1422 @@ Served asset /jquery.js - 304 Not Modified (0ms)
 
 Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-21 12:05:03 -0600
 Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 19:41:10 -0600
+Connecting to database specified by database.yml
+Processing by WinterClassController#am_dev as HTML
+Completed 500 Internal Server Error in 264ms
+
+ArgumentError (wrong number of arguments (0 for 4)):
+  app/models/student.rb:19:in `initialize'
+  app/controllers/winter_class_controller.rb:6:in `new'
+  app/controllers/winter_class_controller.rb:6:in `block in build_student_ary'
+  app/controllers/winter_class_controller.rb:5:in `each'
+  app/controllers/winter_class_controller.rb:5:in `build_student_ary'
+  app/controllers/winter_class_controller.rb:20:in `am_dev'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (44.5ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 19:50:59 -0600
+Processing by WinterClassController#am_dev as HTML
+Completed 500 Internal Server Error in 1ms
+
+SyntaxError (/Users/davekaplan/Projects/YearbookApp/app/models/student.rb:4: syntax error, unexpected keyword_def, expecting ')'
+  def Student.help
+     ^):
+  app/controllers/winter_class_controller.rb:16:in `am_dev'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.1ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 19:53:20 -0600
+Processing by WinterClassController#am_dev as HTML
+Completed 500 Internal Server Error in 1ms
+
+SyntaxError (/Users/davekaplan/Projects/YearbookApp/app/models/student.rb:8: syntax error, unexpected keyword_def, expecting ')'
+  def Student.fetch(section)
+     ^):
+  app/controllers/winter_class_controller.rb:16:in `am_dev'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.9ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 19:53:37 -0600
+Processing by WinterClassController#am_dev as HTML
+  Rendered winter_class/am_dev.html.erb within layouts/application (56.7ms)
+Completed 500 Internal Server Error in 274ms
+
+ActionView::Template::Error (undefined method `twitter' for #<Hash:0x007faafdfd7f00>):
+    10:   <ul>
+    11:   <% @students.shuffle.each do |student| %>
+    12:     <li>
+    13:     <% if student.twitter != "" %>
+    14:       <a href=<%="https://twitter.com/#{student.twitter}"%>>
+    15:     <% end %>
+    16:       <img src="<%= student.photo_url %>" alt="<%= student.name %>" title="<%= student.name %>"/>
+  app/views/winter_class/am_dev.html.erb:13:in `block in _app_views_winter_class_am_dev_html_erb__1578225360955222395_70186191213840'
+  app/views/winter_class/am_dev.html.erb:11:in `each'
+  app/views/winter_class/am_dev.html.erb:11:in `_app_views_winter_class_am_dev_html_erb__1578225360955222395_70186191213840'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.5ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 19:55:42 -0600
+Processing by WinterClassController#am_dev as HTML
+  Rendered winter_class/am_dev.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 156ms
+
+ActionView::Template::Error (undefined method `twitter' for #<Hash:0x007faafde9d4f0>):
+    10:   <ul>
+    11:   <% @students.shuffle.each do |student| %>
+    12:     <li>
+    13:     <% if student.twitter != "" %>
+    14:       <a href=<%="https://twitter.com/#{student.twitter}"%>>
+    15:     <% end %>
+    16:       <img src="<%= student.photo_url %>" alt="<%= student.name %>" title="<%= student.name %>"/>
+  app/views/winter_class/am_dev.html.erb:13:in `block in _app_views_winter_class_am_dev_html_erb__1578225360955222395_70186191213840'
+  app/views/winter_class/am_dev.html.erb:11:in `each'
+  app/views/winter_class/am_dev.html.erb:11:in `_app_views_winter_class_am_dev_html_erb__1578225360955222395_70186191213840'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.2ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 19:56:03 -0600
+Processing by WinterClassController#am_dev as HTML
+  Rendered winter_class/am_dev.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 154ms
+
+ActionView::Template::Error (undefined method `twitter' for #<Hash:0x007faafdf6b648>):
+    10:   <ul>
+    11:   <% @students.shuffle.each do |student| %>
+    12:     <li>
+    13:     <% if student.twitter != "" %>
+    14:       <a href=<%="https://twitter.com/#{student.twitter}"%>>
+    15:     <% end %>
+    16:       <img src="<%= student.photo_url %>" alt="<%= student.name %>" title="<%= student.name %>"/>
+  app/views/winter_class/am_dev.html.erb:13:in `block in _app_views_winter_class_am_dev_html_erb__1578225360955222395_70186190991580'
+  app/views/winter_class/am_dev.html.erb:11:in `each'
+  app/views/winter_class/am_dev.html.erb:11:in `_app_views_winter_class_am_dev_html_erb__1578225360955222395_70186190991580'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (11.8ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (17.1ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 19:56:08 -0600
+Processing by WinterClassController#am_dev as HTML
+  Rendered winter_class/am_dev.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 228ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-21 19:56:09 -0600
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-21 19:56:09 -0600
+Served asset /style.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-21 19:56:09 -0600
+Served asset /script.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-21 19:56:09 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-21 19:56:09 -0600
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-21 19:56:09 -0600
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-21 19:56:09 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:05:04 -0600
+Processing by WinterClassController#am_dev as HTML
+  Rendered winter_class/am_dev.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 329ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-21 20:05:04 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-21 20:05:04 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-21 20:05:04 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-21 20:05:04 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-21 20:05:04 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-21 20:05:04 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:05:21 -0600
+Processing by WinterClassController#am_dev as HTML
+  Rendered winter_class/am_dev.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 220ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-21 20:05:22 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-21 20:05:22 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-21 20:05:22 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-21 20:05:22 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-21 20:05:22 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-21 20:05:22 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:06:10 -0600
+Processing by WinterClassController#am_dev as HTML
+  Rendered winter_class/am_dev.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 800ms (Views: 25.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-21 20:06:11 -0600
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-21 20:06:11 -0600
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-21 20:06:11 -0600
+Served asset /script.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-21 20:06:11 -0600
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-21 20:06:11 -0600
+Served asset /style.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-21 20:06:11 -0600
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-21 20:06:11 -0600
+Served asset /pattern9.jpg - 200 OK (0ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:07:21 -0600
+Processing by WinterClassController#am_dev as HTML
+Completed 500 Internal Server Error in 192ms
+
+ArgumentError (wrong number of arguments (0 for 4)):
+  app/models/student.rb:24:in `initialize'
+  app/models/student.rb:14:in `new'
+  app/models/student.rb:14:in `block in fetch'
+  app/models/student.rb:13:in `each'
+  app/models/student.rb:13:in `fetch'
+  app/controllers/winter_class_controller.rb:16:in `am_dev'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.0ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:09:08 -0600
+Processing by WinterClassController#am_dev as HTML
+  Rendered winter_class/am_dev.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 357ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-21 20:09:09 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-21 20:09:09 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-21 20:09:09 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-21 20:09:09 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-21 20:09:09 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-21 20:09:09 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:11:15 -0600
+Processing by WinterClassController#am_dev as HTML
+  Rendered winter_class/am_dev.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 195ms
+
+ActionView::Template::Error (undefined method `twitter' for #<Hash:0x007faafdda1c40>):
+    12:   <ul>
+    13:   <% @students.shuffle.each do |student| %>
+    14:     <li>
+    15:     <% if student.twitter != "" %>
+    16:       <a href=<%="https://twitter.com/#{student.twitter}"%>>
+    17:     <% end %>
+    18:       <img src="<%= student.photo_url %>" alt="<%= student.name %>" title="<%= student.name %>"/>
+  app/views/winter_class/am_dev.html.erb:15:in `block in _app_views_winter_class_am_dev_html_erb__1578225360955222395_70186190100000'
+  app/views/winter_class/am_dev.html.erb:13:in `each'
+  app/views/winter_class/am_dev.html.erb:13:in `_app_views_winter_class_am_dev_html_erb__1578225360955222395_70186190100000'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.1ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:13:06 -0600
+Processing by WinterClassController#am_dev as HTML
+  Rendered winter_class/am_dev.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 212ms
+
+ActionView::Template::Error (undefined method `name' for #<Array:0x007faafde8bdb8>):
+    7: </nav>
+    8: 
+    9: <%# @students.inspect %>
+    10: <%= @students.name[0] %>
+  app/views/winter_class/am_dev.html.erb:10:in `_app_views_winter_class_am_dev_html_erb__1578225360955222395_70186190546460'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.1ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:15:37 -0600
+Processing by WinterClassController#am_dev as HTML
+  Rendered winter_class/am_dev.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 301ms
+
+ActionView::Template::Error (undefined method `name' for #<Array:0x007faafdf105b8>):
+    7: </nav>
+    8: 
+    9: <%# @students.inspect %>
+    10: <%= @students.name %>
+  app/views/winter_class/am_dev.html.erb:10:in `_app_views_winter_class_am_dev_html_erb__1578225360955222395_70186190818280'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.1ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:16:00 -0600
+Processing by WinterClassController#am_dev as HTML
+  Rendered winter_class/am_dev.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 136ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-21 20:16:00 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-21 20:16:00 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-21 20:16:00 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-21 20:16:00 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-21 20:16:00 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-21 20:16:00 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:16:32 -0600
+Processing by WinterClassController#am_dev as HTML
+  Rendered winter_class/am_dev.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 156ms
+
+ActionView::Template::Error (undefined method `name' for #<Hash:0x007faafdf48170>):
+    8: 
+    9: <%# @students.inspect %>
+    10: <%# Student.help %>
+    11: <%= @students[0].name %>
+  app/views/winter_class/am_dev.html.erb:11:in `_app_views_winter_class_am_dev_html_erb__1578225360955222395_70186190899720'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (22.7ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:17:16 -0600
+Processing by WinterClassController#am_dev as HTML
+  Rendered winter_class/am_dev.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 301ms
+
+ActionView::Template::Error (undefined method `name' for #<Hash:0x007faafdd981b8>):
+    8: 
+    9: <%# @students.inspect %>
+    10: <%# Student.help %>
+    11: <%= @students[0].name %>
+  app/views/winter_class/am_dev.html.erb:11:in `_app_views_winter_class_am_dev_html_erb__1578225360955222395_70186190899720'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.4ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:17:27 -0600
+Processing by WinterClassController#am_dev as HTML
+  Rendered winter_class/am_dev.html.erb within layouts/application (1.4ms)
+Compiled style.css  (0ms)  (pid 1809)
+Compiled application.css  (0ms)  (pid 1809)
+Completed 200 OK in 201ms (Views: 27.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-21 20:17:27 -0600
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-21 20:17:27 -0600
+Served asset /style.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-21 20:17:27 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-21 20:17:27 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-21 20:17:27 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-21 20:17:27 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-21 20:17:27 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:19:58 -0600
+Processing by WinterClassController#am_dev as HTML
+  Rendered winter_class/am_dev.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 208ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-21 20:19:59 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-21 20:19:59 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-21 20:19:59 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-21 20:19:59 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-21 20:19:59 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-21 20:19:59 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:21:19 -0600
+Processing by WinterClassController#am_dev as HTML
+Completed 500 Internal Server Error in 196ms
+
+ArgumentError (wrong number of arguments (0 for 4)):
+  app/models/student.rb:24:in `initialize'
+  app/models/student.rb:12:in `new'
+  app/models/student.rb:12:in `fetch'
+  app/controllers/winter_class_controller.rb:16:in `am_dev'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.8ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:25:16 -0600
+Processing by WinterClassController#am_dev as HTML
+Completed 500 Internal Server Error in 225ms
+
+ArgumentError (wrong number of arguments (0 for 4)):
+  app/models/student.rb:24:in `initialize'
+  app/models/student.rb:12:in `new'
+  app/models/student.rb:12:in `fetch'
+  app/controllers/winter_class_controller.rb:16:in `am_dev'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.8ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:26:21 -0600
+Processing by WinterClassController#am_dev as HTML
+Completed 500 Internal Server Error in 261ms
+
+ArgumentError (wrong number of arguments (0 for 4)):
+  app/models/student.rb:28:in `initialize'
+  app/models/student.rb:16:in `new'
+  app/models/student.rb:16:in `fetch'
+  app/controllers/winter_class_controller.rb:16:in `am_dev'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.1ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:26:41 -0600
+Processing by WinterClassController#am_dev as HTML
+Completed 500 Internal Server Error in 135ms
+
+ArgumentError (wrong number of arguments (0 for 4)):
+  app/models/student.rb:28:in `initialize'
+  app/models/student.rb:16:in `new'
+  app/models/student.rb:16:in `fetch'
+  app/controllers/winter_class_controller.rb:16:in `am_dev'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.7ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:26:42 -0600
+Processing by WinterClassController#am_dev as HTML
+Completed 500 Internal Server Error in 289ms
+
+ArgumentError (wrong number of arguments (0 for 4)):
+  app/models/student.rb:28:in `initialize'
+  app/models/student.rb:16:in `new'
+  app/models/student.rb:16:in `fetch'
+  app/controllers/winter_class_controller.rb:16:in `am_dev'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.9ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:26:58 -0600
+Processing by WinterClassController#am_dev as HTML
+Completed 500 Internal Server Error in 422ms
+
+NoMethodError (private method `Array' called for #<Student:0x007faafdf00398>):
+  app/models/student.rb:16:in `fetch'
+  app/controllers/winter_class_controller.rb:16:in `am_dev'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.7ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:27:15 -0600
+Processing by WinterClassController#am_dev as HTML
+Completed 500 Internal Server Error in 269ms
+
+NoMethodError (private method `Array' called for #<Student:0x007faafdfcf8c8>):
+  app/models/student.rb:15:in `fetch'
+  app/controllers/winter_class_controller.rb:16:in `am_dev'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.0ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:27:29 -0600
+Processing by WinterClassController#am_dev as HTML
+Completed 500 Internal Server Error in 806ms
+
+ArgumentError (wrong number of arguments (0 for 4)):
+  app/models/student.rb:27:in `initialize'
+  app/models/student.rb:15:in `new'
+  app/models/student.rb:15:in `fetch'
+  app/controllers/winter_class_controller.rb:16:in `am_dev'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.8ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:27:59 -0600
+Processing by WinterClassController#am_dev as HTML
+Completed 500 Internal Server Error in 145ms
+
+ArgumentError (wrong number of arguments (0 for 4)):
+  app/models/student.rb:27:in `initialize'
+  app/models/student.rb:15:in `new'
+  app/models/student.rb:15:in `fetch'
+  app/controllers/winter_class_controller.rb:16:in `am_dev'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.7ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:28:17 -0600
+Processing by WinterClassController#am_dev as HTML
+Completed 500 Internal Server Error in 1ms
+
+ArgumentError (wrong number of arguments (0 for 4)):
+  app/models/student.rb:27:in `initialize'
+  app/models/student.rb:13:in `new'
+  app/models/student.rb:13:in `fetch'
+  app/controllers/winter_class_controller.rb:16:in `am_dev'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.6ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:28:19 -0600
+Processing by WinterClassController#am_dev as HTML
+Completed 500 Internal Server Error in 0ms
+
+ArgumentError (wrong number of arguments (0 for 4)):
+  app/models/student.rb:27:in `initialize'
+  app/models/student.rb:13:in `new'
+  app/models/student.rb:13:in `fetch'
+  app/controllers/winter_class_controller.rb:16:in `am_dev'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.0ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:28:25 -0600
+Processing by WinterClassController#am_dev as HTML
+Completed 500 Internal Server Error in 0ms
+
+ArgumentError (wrong number of arguments (0 for 4)):
+  app/models/student.rb:27:in `initialize'
+  app/models/student.rb:13:in `new'
+  app/models/student.rb:13:in `fetch'
+  app/controllers/winter_class_controller.rb:16:in `am_dev'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.6ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:28:58 -0600
+Processing by WinterClassController#am_dev as HTML
+Completed 500 Internal Server Error in 1ms
+
+ArgumentError (wrong number of arguments (0 for 4)):
+  app/models/student.rb:26:in `initialize'
+  app/models/student.rb:12:in `new'
+  app/models/student.rb:12:in `fetch'
+  app/controllers/winter_class_controller.rb:16:in `am_dev'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.1ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:29:06 -0600
+Processing by WinterClassController#am_dev as HTML
+Completed 500 Internal Server Error in 0ms
+
+ArgumentError (wrong number of arguments (0 for 4)):
+  app/models/student.rb:26:in `initialize'
+  app/models/student.rb:12:in `new'
+  app/models/student.rb:12:in `fetch'
+  app/controllers/winter_class_controller.rb:16:in `am_dev'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.1ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:29:09 -0600
+Processing by WinterClassController#am_dev as HTML
+Completed 500 Internal Server Error in 0ms
+
+ArgumentError (wrong number of arguments (0 for 4)):
+  app/models/student.rb:26:in `initialize'
+  app/models/student.rb:12:in `new'
+  app/models/student.rb:12:in `fetch'
+  app/controllers/winter_class_controller.rb:16:in `am_dev'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.0ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:29:28 -0600
+Processing by WinterClassController#am_dev as HTML
+Completed 500 Internal Server Error in 1ms
+
+SyntaxError (/Users/davekaplan/Projects/YearbookApp/app/models/student.rb:33: syntax error, unexpected keyword_end, expecting $end):
+  app/controllers/winter_class_controller.rb:16:in `am_dev'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.3ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:29:41 -0600
+Processing by WinterClassController#am_dev as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `fetch' for Student:Class):
+  app/controllers/winter_class_controller.rb:16:in `am_dev'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (17.7ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (23.0ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:29:52 -0600
+Processing by WinterClassController#am_dev as HTML
+  Rendered winter_class/am_dev.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 258ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-21 20:29:52 -0600
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-21 20:29:52 -0600
+Served asset /style.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-21 20:29:52 -0600
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-21 20:29:52 -0600
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-21 20:29:52 -0600
+Served asset /script.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-21 20:29:52 -0600
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-21 20:29:52 -0600
+Served asset /pattern9.jpg - 200 OK (0ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:30:03 -0600
+Processing by WinterClassController#am_dev as HTML
+  Rendered winter_class/am_dev.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 131ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-21 20:30:03 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-21 20:30:03 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-21 20:30:03 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-21 20:30:03 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-21 20:30:03 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-21 20:30:03 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:30:11 -0600
+Processing by WinterClassController#am_dev as HTML
+  Rendered winter_class/am_dev.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 141ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-21 20:30:11 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-21 20:30:11 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-21 20:30:11 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-21 20:30:11 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-21 20:30:11 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-21 20:30:11 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:30:34 -0600
+Processing by WinterClassController#am_dev as HTML
+  Rendered winter_class/am_dev.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 165ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-21 20:30:34 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-21 20:30:34 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-21 20:30:34 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-21 20:30:34 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-21 20:30:34 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-21 20:30:34 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:31:14 -0600
+Processing by WinterClassController#am_dev as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (private method `Array' called for #<Student:0x007faafded1f48>):
+  app/models/student.rb:12:in `fetch'
+  app/controllers/winter_class_controller.rb:16:in `am_dev'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.9ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:31:24 -0600
+Processing by WinterClassController#am_dev as HTML
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (private method `Array' called for #<Student:0x007faafdf3f868>):
+  app/models/student.rb:12:in `fetch'
+  app/controllers/winter_class_controller.rb:16:in `am_dev'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.0ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:31:26 -0600
+Processing by WinterClassController#am_dev as HTML
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (private method `Array' called for #<Student:0x007faafdfbce08>):
+  app/models/student.rb:12:in `fetch'
+  app/controllers/winter_class_controller.rb:16:in `am_dev'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.4ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:32:24 -0600
+Processing by WinterClassController#am_dev as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (private method `Array' called for #<Student:0x007faafdf28cf8>):
+  app/models/student.rb:12:in `fetch'
+  app/controllers/winter_class_controller.rb:16:in `am_dev'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.9ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:32:40 -0600
+Processing by WinterClassController#am_dev as HTML
+  Rendered winter_class/am_dev.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 202ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-21 20:32:40 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-21 20:32:40 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-21 20:32:40 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-21 20:32:40 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-21 20:32:40 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-21 20:32:40 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:32:57 -0600
+Processing by WinterClassController#am_dev as HTML
+  Rendered winter_class/am_dev.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 133ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-21 20:32:57 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-21 20:32:57 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-21 20:32:57 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-21 20:32:57 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-21 20:32:57 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-21 20:32:57 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:36:48 -0600
+Processing by WinterClassController#am_dev as HTML
+Completed 500 Internal Server Error in 212ms
+
+ArgumentError (wrong number of arguments(4 for 0)):
+  app/models/student.rb:17:in `initialize'
+  app/models/student.rb:17:in `new'
+  app/models/student.rb:17:in `block in fetch'
+  app/models/student.rb:16:in `each'
+  app/models/student.rb:16:in `fetch'
+  app/controllers/winter_class_controller.rb:16:in `am_dev'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.1ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:38:15 -0600
+Processing by WinterClassController#am_dev as HTML
+Completed 500 Internal Server Error in 223ms
+
+NameError (undefined local variable or method `am_students' for Student:Class):
+  app/models/student.rb:21:in `block in fetch'
+  app/models/student.rb:16:in `each'
+  app/models/student.rb:16:in `fetch'
+  app/controllers/winter_class_controller.rb:16:in `am_dev'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.9ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:38:24 -0600
+Processing by WinterClassController#am_dev as HTML
+Completed 500 Internal Server Error in 168ms
+
+NameError (undefined local variable or method `am_students' for Student:Class):
+  app/models/student.rb:21:in `block in fetch'
+  app/models/student.rb:16:in `each'
+  app/models/student.rb:16:in `fetch'
+  app/controllers/winter_class_controller.rb:16:in `am_dev'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.0ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:39:32 -0600
+Processing by WinterClassController#am_dev as HTML
+Completed 500 Internal Server Error in 185ms
+
+NameError (undefined local variable or method `am_students' for Student:Class):
+  app/models/student.rb:21:in `block in fetch'
+  app/models/student.rb:16:in `each'
+  app/models/student.rb:16:in `fetch'
+  app/controllers/winter_class_controller.rb:16:in `am_dev'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.2ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:39:48 -0600
+Processing by WinterClassController#am_dev as HTML
+  Rendered winter_class/am_dev.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 749ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-21 20:39:49 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-21 20:39:49 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-21 20:39:49 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-21 20:39:49 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-21 20:39:49 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-21 20:39:49 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:40:04 -0600
+Processing by WinterClassController#am_dev as HTML
+  Rendered winter_class/am_dev.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 295ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-21 20:40:04 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-21 20:40:04 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-21 20:40:04 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-21 20:40:04 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-21 20:40:04 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-21 20:40:04 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:40:34 -0600
+Processing by WinterClassController#am_dev as HTML
+  Rendered winter_class/am_dev.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 282ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-21 20:40:35 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-21 20:40:35 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-21 20:40:35 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-21 20:40:35 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-21 20:40:35 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-21 20:40:35 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:42:14 -0600
+Processing by WinterClassController#am_dev as HTML
+  Rendered winter_class/am_dev.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 235ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-21 20:42:14 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-21 20:42:14 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-21 20:42:14 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-21 20:42:14 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-21 20:42:14 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-21 20:42:14 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:44:09 -0600
+Processing by WinterClassController#am_dev as HTML
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from _app_views_winter_class_am_dev_html_erb__1578225360955222395_70186190610960 at /Users/davekaplan/Projects/YearbookApp/app/views/winter_class/am_dev.html.erb:9)
+  Rendered winter_class/_students.html.erb (1.4ms)
+  Rendered winter_class/am_dev.html.erb within layouts/application (39.2ms)
+Completed 200 OK in 253ms (Views: 42.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-21 20:44:09 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-21 20:44:09 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-21 20:44:09 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-21 20:44:09 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-21 20:44:09 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-21 20:44:09 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-21 20:44:10 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:45:45 -0600
+Processing by WinterClassController#am_dev as HTML
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from _app_views_winter_class_am_dev_html_erb__1578225360955222395_70186191133100 at /Users/davekaplan/Projects/YearbookApp/app/views/winter_class/am_dev.html.erb:9)
+  Rendered winter_class/_students.html.erb (0.6ms)
+  Rendered winter_class/am_dev.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 291ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-21 20:45:46 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-21 20:45:46 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-21 20:45:46 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-21 20:45:46 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-21 20:45:46 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-21 20:45:46 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-21 20:45:46 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:47:55 -0600
+Processing by WinterClassController#am_dev as HTML
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from _app_views_winter_class_am_dev_html_erb__1578225360955222395_70186191133100 at /Users/davekaplan/Projects/YearbookApp/app/views/winter_class/am_dev.html.erb:9)
+  Rendered winter_class/_students.html.erb (0.6ms)
+  Rendered winter_class/am_dev.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 214ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-21 20:47:55 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-21 20:47:55 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-21 20:47:55 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-21 20:47:55 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-21 20:47:55 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-21 20:47:55 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/pm" for 127.0.0.1 at 2013-01-21 20:47:58 -0600
+Processing by WinterClassController#pm_dev as HTML
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from _app_views_winter_class_pm_dev_html_erb___2334540789139101038_70186188571840 at /Users/davekaplan/Projects/YearbookApp/app/views/winter_class/pm_dev.html.erb:8)
+  Rendered winter_class/_students.html.erb (0.5ms)
+  Rendered winter_class/pm_dev.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (undefined method `shuffle' for nil:NilClass):
+    1: <div class = "container">
+    2:   <ul>
+    3:   <% @students.shuffle.each do |student| %>
+    4:     <li>
+    5:     <% if student.twitter != "" %>
+    6:       <a href=<%="https://twitter.com/#{student.twitter}"%>>
+  app/views/winter_class/_students.html.erb:3:in `_app_views_winter_class__students_html_erb__2794935087215166720_70186190656120'
+  app/views/winter_class/pm_dev.html.erb:8:in `_app_views_winter_class_pm_dev_html_erb___2334540789139101038_70186188571840'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.3ms)
+
+
+Started GET "/pm" for 127.0.0.1 at 2013-01-21 20:48:02 -0600
+Processing by WinterClassController#pm_dev as HTML
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from _app_views_winter_class_pm_dev_html_erb___2334540789139101038_70186190891460 at /Users/davekaplan/Projects/YearbookApp/app/views/winter_class/pm_dev.html.erb:8)
+  Rendered winter_class/_students.html.erb (0.4ms)
+  Rendered winter_class/pm_dev.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 2ms
+
+ActionView::Template::Error (undefined method `shuffle' for nil:NilClass):
+    1: <div class = "container">
+    2:   <ul>
+    3:   <% @students.shuffle.each do |student| %>
+    4:     <li>
+    5:     <% if student.twitter != "" %>
+    6:       <a href=<%="https://twitter.com/#{student.twitter}"%>>
+  app/views/winter_class/_students.html.erb:3:in `_app_views_winter_class__students_html_erb__2794935087215166720_70186190656120'
+  app/views/winter_class/pm_dev.html.erb:8:in `_app_views_winter_class_pm_dev_html_erb___2334540789139101038_70186190891460'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.1ms)
+
+
+Started GET "/pm" for 127.0.0.1 at 2013-01-21 20:48:16 -0600
+Processing by WinterClassController#pm_dev as HTML
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from _app_views_winter_class_pm_dev_html_erb___2334540789139101038_70186190891460 at /Users/davekaplan/Projects/YearbookApp/app/views/winter_class/pm_dev.html.erb:8)
+  Rendered winter_class/_students.html.erb (0.8ms)
+  Rendered winter_class/pm_dev.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 140ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-21 20:48:16 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-21 20:48:16 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-21 20:48:16 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-21 20:48:16 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-21 20:48:16 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-21 20:48:16 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/pm" for 127.0.0.1 at 2013-01-21 20:48:28 -0600
+Processing by WinterClassController#pm_dev as HTML
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from _app_views_winter_class_pm_dev_html_erb___2334540789139101038_70186190891460 at /Users/davekaplan/Projects/YearbookApp/app/views/winter_class/pm_dev.html.erb:8)
+  Rendered winter_class/_students.html.erb (0.7ms)
+  Rendered winter_class/pm_dev.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 135ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-21 20:48:29 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-21 20:48:29 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-21 20:48:29 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-21 20:48:29 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-21 20:48:29 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-21 20:48:29 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-21 20:49:16 -0600
+Processing by WinterClassController#am_dev as HTML
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from _app_views_winter_class_am_dev_html_erb__1578225360955222395_70186191133100 at /Users/davekaplan/Projects/YearbookApp/app/views/winter_class/am_dev.html.erb:9)
+  Rendered winter_class/_students.html.erb (0.8ms)
+  Rendered winter_class/am_dev.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 1208ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-21 20:49:17 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-21 20:49:17 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-21 20:49:17 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-21 20:49:17 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-21 20:49:17 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-21 20:49:17 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
