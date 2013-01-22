@@ -1,11 +1,13 @@
 class Student
-  attr_accessor :name, :photo_url, :section, :twitter
+  attr_accessor :name, :photo_url, :section, :twitter, :class_section
 
   def Student.help
     return "Student Class object has the following initializing instance variables: name, photo_url, section and twitter."
   end
 
   def Student.fetch(section)
+
+    @class_section = get_section
 
     students = Array.new
 
@@ -29,11 +31,23 @@ class Student
     return students
   end
 
+  def Student.get_section
+    # return "world!"
+    return @class_section
+  end
+
+  def get_section
+    # return "world!"
+    return @class_section
+  end
+
   def initialize(student_name, pic_url, class_section, twitter_handle)
     @name = student_name
     @photo_url = pic_url
     @section = class_section
     @twitter = twitter_handle
   end
+
+
 
 end

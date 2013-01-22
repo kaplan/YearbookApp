@@ -11,6 +11,7 @@ class WinterClassController < ApplicationController
 
   def index
     @students = Student.fetch(params["section"])
+    @class_section = params["section"]
   end
 
 end
