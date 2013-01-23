@@ -1,3 +1,5 @@
+require "open-uri"
+
 class Student
   attr_accessor :name, :photo_url, :section, :twitter, :class_section
 
@@ -7,7 +9,7 @@ class Student
 
   def Student.fetch(section)
 
-    @class_section = get_section
+    # @class_section = get_section
 
     students = Array.new
 
@@ -31,15 +33,15 @@ class Student
     return students
   end
 
-  def Student.get_section
-    # return "world!"
-    return @class_section
-  end
+  # def Student.get_section
+  #   # return "world!"
+  #   return @class_section
+  # end
 
-  def get_section
-    # return "world!"
-    return @class_section
-  end
+  # def get_section
+  #   # return "world!"
+  #   return @class_section
+  # end
 
   def initialize(student_name, pic_url, class_section, twitter_handle)
     @name = student_name
