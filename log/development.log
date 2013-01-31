@@ -34476,3 +34476,3803 @@ ActionController::RoutingError (No route matches [GET] "/pictures"):
 
 
   Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-27 19:27:13 -0600
+Connecting to database specified by database.yml
+Processing by StudentsController#index as HTML
+  Rendered students/_students.html.erb (1.3ms)
+  Rendered students/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 424ms (Views: 39.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-27 19:27:14 -0600
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-27 19:27:14 -0600
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-27 19:27:14 -0600
+Served asset /style.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-27 19:27:14 -0600
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-27 19:27:14 -0600
+Served asset /script.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-27 19:27:14 -0600
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-27 19:27:14 -0600
+Served asset /pattern9.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/students/am" for 127.0.0.1 at 2013-01-27 19:27:29 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"am"}
+  Rendered students/_students.html.erb (0.7ms)
+  Rendered students/section.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 191ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-27 19:27:30 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-27 19:27:30 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-27 19:27:30 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-27 19:27:30 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-27 19:27:30 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-27 19:27:30 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-27 19:27:30 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students/pm" for 127.0.0.1 at 2013-01-27 19:28:33 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"pm"}
+  Rendered students/_students.html.erb (0.6ms)
+  Rendered students/section.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 200ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-27 19:28:34 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-27 19:28:34 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-27 19:28:34 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-27 19:28:34 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-27 19:28:34 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-27 19:28:34 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-27 19:28:34 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students/am" for 127.0.0.1 at 2013-01-27 19:35:01 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"am"}
+  Rendered students/_students.html.erb (0.5ms)
+  Rendered students/section.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 187ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-27 19:35:02 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-27 19:35:02 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-27 19:35:02 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-27 19:35:02 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-27 19:35:02 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-27 19:35:02 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-27 19:35:02 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (57.2ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (1.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (1.7ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to CreateStudent (20130128014025)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.9ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateStudent (20130128014025)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "students" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "photo_url" varchar(255), "section" varchar(255), "twitter" varchar(255)) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130128014025')[0m
+  [1m[35m (1.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+
+
+Started GET "/students/pm" for 127.0.0.1 at 2013-01-27 19:46:28 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"pm"}
+Completed 500 Internal Server Error in 32ms
+
+NoMethodError (undefined method `fetch' for #<Class:0x007ffe67418850>):
+  app/controllers/students_controller.rb:20:in `section'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-27 19:46:33 -0600
+Processing by StudentsController#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `fetch' for #<Class:0x007ffe67418850>):
+  app/controllers/students_controller.rb:14:in `index'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.4ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-27 19:52:54 -0600
+Processing by StudentsController#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  app/models/student.rb:3:in `fetch'
+  app/controllers/students_controller.rb:12:in `index'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-27 19:53:12 -0600
+Processing by StudentsController#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  app/models/student.rb:3:in `fetch'
+  app/controllers/students_controller.rb:12:in `index'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-27 19:53:42 -0600
+Processing by StudentsController#index as HTML
+  Rendered students/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-27 19:53:42 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-27 19:53:42 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-27 19:53:42 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-27 19:53:42 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-27 19:53:42 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-27 19:53:42 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-27 19:53:42 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/am" for 127.0.0.1 at 2013-01-27 19:54:50 -0600
+
+ActionController::RoutingError (No route matches [GET] "/am"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.4) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.4) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/davekaplan/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/davekaplan/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/davekaplan/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/students" for 127.0.0.1 at 2013-01-27 19:55:00 -0600
+Processing by StudentsController#index as HTML
+  Rendered students/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 3ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-27 19:55:00 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-27 19:55:00 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-27 19:55:00 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-27 19:55:00 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-27 19:55:00 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-27 19:55:00 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-27 19:55:00 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students/am" for 127.0.0.1 at 2013-01-27 19:55:01 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"am"}
+  Rendered students/section.html.erb within layouts/application (3.3ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (undefined method `upcase' for nil:NilClass):
+    1: <nav>
+    2:  <h1>TSL Winter Web Dev <%= @class_section.upcase %> Class</h1>
+    3: 
+    4: <ul>
+    5:     <% if @class_section == "am" %>
+  app/views/students/section.html.erb:2:in `_app_views_students_section_html_erb__3208864888262143244_70365322949740'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.4ms)
+
+
+Started GET "/students/am" for 127.0.0.1 at 2013-01-27 19:55:23 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"am"}
+  Rendered students/section.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 2ms
+
+ActionView::Template::Error (undefined method `upcase' for nil:NilClass):
+    1: <nav>
+    2:  <h1>TSL Winter Web Dev <%= @class_section.upcase %> Class</h1>
+    3: 
+    4: <ul>
+    5:     <% if @class_section == "am" %>
+  app/views/students/section.html.erb:2:in `_app_views_students_section_html_erb__3208864888262143244_70365322949740'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.3ms)
+
+
+Started GET "/students/am" for 127.0.0.1 at 2013-01-27 19:55:37 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"am"}
+  Rendered students/section.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 2ms
+
+ActionView::Template::Error (undefined method `upcase' for nil:NilClass):
+    1: <nav>
+    2:  <h1>TSL Winter Web Dev <%= @class_section.upcase %> Class</h1>
+    3: 
+    4: <ul>
+    5:     <% if @class_section == "am" %>
+  app/views/students/section.html.erb:2:in `_app_views_students_section_html_erb__3208864888262143244_70365322949740'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.1ms)
+
+
+Started GET "/students/am" for 127.0.0.1 at 2013-01-27 19:56:41 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"am"}
+  Rendered students/section.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 3ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-27 19:56:41 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-27 19:56:41 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-27 19:56:41 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-27 19:56:41 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-27 19:56:41 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-27 19:56:41 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-27 19:56:41 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students/am" for 127.0.0.1 at 2013-01-27 20:02:09 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"am"}
+  Rendered students/section.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 365ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-27 20:02:09 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-27 20:02:09 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-27 20:02:09 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-27 20:02:09 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-27 20:02:09 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-27 20:02:09 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/students/am" for 127.0.0.1 at 2013-01-27 20:09:11 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"am"}
+Completed 500 Internal Server Error in 1ms
+
+SystemStackError (stack level too deep):
+  actionpack (3.2.11) lib/action_dispatch/middleware/reloader.rb:70
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.8ms)
+
+
+Started GET "/students/am" for 127.0.0.1 at 2013-01-27 20:10:05 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"am"}
+  Rendered students/section.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-27 20:10:05 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-27 20:10:05 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-27 20:10:05 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-27 20:10:05 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-27 20:10:05 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-27 20:10:05 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/students/am" for 127.0.0.1 at 2013-01-27 20:10:20 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"am"}
+  Rendered students/section.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 3ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-27 20:10:20 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-27 20:10:20 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-27 20:10:20 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-27 20:10:20 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-27 20:10:20 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-27 20:10:20 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/students/am" for 127.0.0.1 at 2013-01-27 20:10:58 -0600
+
+SyntaxError (/Users/davekaplan/Projects/YearbookApp/app/controllers/students_controller.rb:16: void value expression):
+  activesupport (3.2.11) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:469:in `block in load_file'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:192:in `block in const_missing'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.11) lib/active_support/inflector/methods.rb:230:in `block in constantize'
+  activesupport (3.2.11) lib/active_support/inflector/methods.rb:229:in `each'
+  activesupport (3.2.11) lib/active_support/inflector/methods.rb:229:in `constantize'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.11) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.11) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.11) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.11) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.4) lib/rack/etag.rb:23:in `call'
+  rack (1.4.4) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.4) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.4) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.11) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.11) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:405:in `_run__2174470016454328350__call__1206027379793185246__callbacks'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.11) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.4) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.4) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/davekaplan/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/davekaplan/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/davekaplan/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.1ms)
+
+
+Started GET "/students/am" for 127.0.0.1 at 2013-01-27 20:11:23 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"am"}
+  Rendered students/section.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-27 20:11:23 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-27 20:11:23 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-27 20:11:23 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-27 20:11:23 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-27 20:11:23 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-27 20:11:23 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/students/am" for 127.0.0.1 at 2013-01-27 20:15:38 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"am"}
+Completed 500 Internal Server Error in 9ms
+
+SystemStackError (stack level too deep):
+  actionpack (3.2.11) lib/action_dispatch/middleware/reloader.rb:70
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.8ms)
+
+
+Started GET "/students/am" for 127.0.0.1 at 2013-01-27 20:15:50 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"am"}
+  Rendered students/section.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 254ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-27 20:15:50 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-27 20:15:50 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-27 20:15:50 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-27 20:15:50 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-27 20:15:50 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-27 20:15:50 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/students/am" for 127.0.0.1 at 2013-01-27 20:16:09 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"am"}
+  Rendered students/section.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 175ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-27 20:16:09 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-27 20:16:09 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-27 20:16:09 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-27 20:16:09 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-27 20:16:09 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-27 20:16:09 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/students/am" for 127.0.0.1 at 2013-01-27 20:16:31 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"am"}
+  Rendered students/section.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 135ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-27 20:16:31 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-27 20:16:31 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-27 20:16:31 -0600
+Served asset /script.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-27 20:16:31 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-27 20:16:31 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-27 20:16:31 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/students/am" for 127.0.0.1 at 2013-01-27 20:23:46 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"am"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.9ms)[0m  INSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)  [["name", nil], ["photo_url", nil], ["section", nil], ["twitter", nil]]
+  [1m[36m (6.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)[0m  [["name", nil], ["photo_url", nil], ["section", nil], ["twitter", nil]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)  [["name", nil], ["photo_url", nil], ["section", nil], ["twitter", nil]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)[0m  [["name", nil], ["photo_url", nil], ["section", nil], ["twitter", nil]]
+  [1m[35m (1.2ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)  [["name", nil], ["photo_url", nil], ["section", nil], ["twitter", nil]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)[0m  [["name", nil], ["photo_url", nil], ["section", nil], ["twitter", nil]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)  [["name", nil], ["photo_url", nil], ["section", nil], ["twitter", nil]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)[0m  [["name", nil], ["photo_url", nil], ["section", nil], ["twitter", nil]]
+  [1m[35m (1.4ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)  [["name", nil], ["photo_url", nil], ["section", nil], ["twitter", nil]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)[0m  [["name", nil], ["photo_url", nil], ["section", nil], ["twitter", nil]]
+  [1m[35m (1.3ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)  [["name", nil], ["photo_url", nil], ["section", nil], ["twitter", nil]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)[0m  [["name", nil], ["photo_url", nil], ["section", nil], ["twitter", nil]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)  [["name", nil], ["photo_url", nil], ["section", nil], ["twitter", nil]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)[0m  [["name", nil], ["photo_url", nil], ["section", nil], ["twitter", nil]]
+  [1m[35m (1.2ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)  [["name", nil], ["photo_url", nil], ["section", nil], ["twitter", nil]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)[0m  [["name", nil], ["photo_url", nil], ["section", nil], ["twitter", nil]]
+  [1m[35m (1.3ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)  [["name", nil], ["photo_url", nil], ["section", nil], ["twitter", nil]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)[0m  [["name", nil], ["photo_url", nil], ["section", nil], ["twitter", nil]]
+  [1m[35m (1.5ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)  [["name", nil], ["photo_url", nil], ["section", nil], ["twitter", nil]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+  Rendered students/section.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 261ms (Views: 3.7ms | ActiveRecord: 34.7ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-27 20:23:46 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-27 20:23:46 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-27 20:23:46 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-27 20:23:46 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-27 20:23:46 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-27 20:23:46 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/students/am" for 127.0.0.1 at 2013-01-27 20:26:18 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"am"}
+  Rendered students/section.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 205ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-27 20:26:19 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-27 20:26:19 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-27 20:26:19 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-27 20:26:19 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-27 20:26:19 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-27 20:26:19 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/students/am" for 127.0.0.1 at 2013-01-27 20:27:16 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"am"}
+  Rendered students/section.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 264ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-27 20:27:17 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-27 20:27:17 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-27 20:27:17 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-27 20:27:17 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-27 20:27:17 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-27 20:27:17 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/students/am" for 127.0.0.1 at 2013-01-27 20:27:22 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"am"}
+  Rendered students/section.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 221ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-27 20:27:22 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-27 20:27:22 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-27 20:27:22 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-27 20:27:22 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-27 20:27:22 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-27 20:27:22 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/students/am" for 127.0.0.1 at 2013-01-27 20:31:14 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"am"}
+  Rendered students/section.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 718ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-27 20:31:15 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-27 20:31:15 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-27 20:31:15 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-27 20:31:15 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-27 20:31:15 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-27 20:31:15 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/students/am" for 127.0.0.1 at 2013-01-27 20:31:47 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"am"}
+  Rendered students/section.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 151ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-27 20:31:47 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-27 20:31:47 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-27 20:31:47 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-27 20:31:47 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-27 20:31:47 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-27 20:31:47 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/students/am" for 127.0.0.1 at 2013-01-27 20:32:07 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"am"}
+  Rendered students/section.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 134ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-27 20:32:07 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-27 20:32:07 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-27 20:32:07 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-27 20:32:07 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-27 20:32:07 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-27 20:32:07 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/students/am" for 127.0.0.1 at 2013-01-27 20:32:14 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"am"}
+  Rendered students/section.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 333ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-27 20:32:14 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-27 20:32:14 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-27 20:32:14 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-27 20:32:14 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-27 20:32:14 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-27 20:32:14 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/students/am" for 127.0.0.1 at 2013-01-27 20:37:36 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"am"}
+  Rendered students/section.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 235ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-27 20:37:36 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-27 20:37:36 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-27 20:37:36 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-27 20:37:36 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-27 20:37:36 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-27 20:37:36 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/students/am" for 127.0.0.1 at 2013-01-27 20:37:43 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"am"}
+  Rendered students/section.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 154ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-27 20:37:43 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-27 20:37:43 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-27 20:37:43 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-27 20:37:43 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-27 20:37:43 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-27 20:37:43 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/students/am" for 127.0.0.1 at 2013-01-27 20:39:45 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"am"}
+Completed 500 Internal Server Error in 188ms
+
+NameError (undefined local variable or method `students_hash_data' for #<StudentsController:0x007ffe68612010>):
+  app/controllers/students_controller.rb:19:in `section'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.6ms)
+
+
+Started GET "/students/am" for 127.0.0.1 at 2013-01-27 20:39:54 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"am"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)[0m  [["name", "Arif Poonawala"], ["photo_url", "http://www.codemountain.com/media/BAhbBlsHOgdmZkkiMy9hcHAvcHVibGljL3N0dWRlbnRfYXZhdGFycy9hcmlmX3Bvb25hd2FsYS5qcGcGOgZFRg/arif_poonawala.jpg?sha=0c8fe1c0"], ["section", "am"], ["twitter", ""]]
+  [1m[35m (2.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)  [["name", "Ben Maher"], ["photo_url", "http://www.codemountain.com/media/BAhbBlsHOgdmZkkiLi9hcHAvcHVibGljL3N0dWRlbnRfYXZhdGFycy9iZW5fbWFoZXIuanBnBjoGRUY/ben_maher.jpg?sha=0c357d4d"], ["section", "am"], ["twitter", ""]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)[0m  [["name", "Brad Olstad"], ["photo_url", "http://www.codemountain.com/media/BAhbBlsHOgdmZkkiMC9hcHAvcHVibGljL3N0dWRlbnRfYXZhdGFycy9icmFkX29sc3RhZC5qcGcGOgZFRg/brad_olstad.jpg?sha=1149c53e"], ["section", "am"], ["twitter", ""]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)  [["name", "Celine Ui"], ["photo_url", "http://www.codemountain.com/media/BAhbBlsHOgdmZkkiLi9hcHAvcHVibGljL3N0dWRlbnRfYXZhdGFycy9jZWxpbmVfdWkuanBnBjoGRUY/celine_ui.jpg?sha=b272bd42"], ["section", "am"], ["twitter", "celinetuitter"]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)[0m  [["name", "Daniel Yu"], ["photo_url", "http://www.codemountain.com/media/BAhbBlsHOgdmZkkiLi9hcHAvcHVibGljL3N0dWRlbnRfYXZhdGFycy9kYW5pZWxfeXUuanBnBjoGRUY/daniel_yu.jpg?sha=45ef5cb3"], ["section", "am"], ["twitter", ""]]
+  [1m[35m (3.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)  [["name", "Dave Kaplan"], ["photo_url", "http://www.codemountain.com/media/BAhbBlsHOgdmZkkiMC9hcHAvcHVibGljL3N0dWRlbnRfYXZhdGFycy9kYXZlX2thcGxhbi5qcGcGOgZFRg/dave_kaplan.jpg?sha=0188dd56"], ["section", "am"], ["twitter", "yokaplan"]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)[0m  [["name", "Gareth Burrows"], ["photo_url", "http://www.codemountain.com/media/BAhbBlsHOgdmZkkiMy9hcHAvcHVibGljL3N0dWRlbnRfYXZhdGFycy9nYXJldGhfYnVycm93cy5qcGcGOgZFRg/gareth_burrows.jpg?sha=4770fa0d"], ["section", "am"], ["twitter", ""]]
+  [1m[35m (1.3ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)  [["name", "Jem Hilton"], ["photo_url", "http://www.codemountain.com/media/BAhbBlsHOgdmZkkiLy9hcHAvcHVibGljL3N0dWRlbnRfYXZhdGFycy9qZW1faGlsdG9uLmpwZwY6BkVG/jem_hilton.jpg?sha=9cd39416"], ["section", "am"], ["twitter", "Tag0Mag0"]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)[0m  [["name", "Jim Mcgough"], ["photo_url", "http://www.codemountain.com/media/BAhbBlsHOgdmZkkiMC9hcHAvcHVibGljL3N0dWRlbnRfYXZhdGFycy9qaW1fbWNnb3VnaC5qcGcGOgZFRg/jim_mcgough.jpg?sha=d14fad3b"], ["section", "am"], ["twitter", "jjmcgough"]]
+  [1m[35m (1.2ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)  [["name", "Joey Maassen"], ["photo_url", "http://www.codemountain.com/media/BAhbBlsHOgdmZkkiMS9hcHAvcHVibGljL3N0dWRlbnRfYXZhdGFycy9qb2V5X21hYXNzZW4uanBnBjoGRUY/joey_maassen.jpg?sha=bbd983d8"], ["section", "am"], ["twitter", "JoeyMaassen"]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)[0m  [["name", "John Breidenbach"], ["photo_url", "http://www.codemountain.com/media/BAhbBlsHOgdmZkkiNS9hcHAvcHVibGljL3N0dWRlbnRfYXZhdGFycy9qb2huX2JyZWlkZW5iYWNoLmpwZwY6BkVG/john_breidenbach.jpg?sha=bf935d60"], ["section", "am"], ["twitter", "jbbach"]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)  [["name", "Kitty Singsuwan"], ["photo_url", "http://www.codemountain.com/media/BAhbBlsHOgdmZkkiLi9hcHAvYXBwL2Fzc2V0cy9pbWFnZXMvbWNwcm9ncmFtZXJzb24ucG5nBjoGRUY/mcprogramerson.png?sha=ca5b2267"], ["section", "am"], ["twitter", "kittysingsuwan"]]
+  [1m[36m (2.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)[0m  [["name", "Matthew Hennessy"], ["photo_url", "http://www.codemountain.com/media/BAhbBlsHOgdmZkkiNS9hcHAvcHVibGljL3N0dWRlbnRfYXZhdGFycy9tYXR0aGV3X2hlbm5lc3N5LmpwZwY6BkVG/matthew_hennessy.jpg?sha=c2a0cd0f"], ["section", "am"], ["twitter", ""]]
+  [1m[35m (1.2ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)  [["name", "Michael Cella"], ["photo_url", "http://www.codemountain.com/media/BAhbBlsHOgdmZkkiMi9hcHAvcHVibGljL3N0dWRlbnRfYXZhdGFycy9taWNoYWVsX2NlbGxhLmpwZwY6BkVG/michael_cella.jpg?sha=375b5702"], ["section", "am"], ["twitter", ""]]
+  [1m[36m (2.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)[0m  [["name", "Michael Dorrance"], ["photo_url", "http://www.codemountain.com/media/BAhbBlsHOgdmZkkiNS9hcHAvcHVibGljL3N0dWRlbnRfYXZhdGFycy9taWNoYWVsX2RvcnJhbmNlLmpwZwY6BkVG/michael_dorrance.jpg?sha=0d6e0d17"], ["section", "am"], ["twitter", "dorrancemike"]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)  [["name", "Michael Mahaffey"], ["photo_url", "http://www.codemountain.com/media/BAhbBlsHOgdmZkkiNS9hcHAvcHVibGljL3N0dWRlbnRfYXZhdGFycy9taWNoYWVsX21haGFmZmV5LmpwZwY6BkVG/michael_mahaffey.jpg?sha=b5adaf3e"], ["section", "am"], ["twitter", "mayhaffs"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)[0m  [["name", "Mike Land"], ["photo_url", "http://www.codemountain.com/media/BAhbBlsHOgdmZkkiLi9hcHAvcHVibGljL3N0dWRlbnRfYXZhdGFycy9taWtlX2xhbmQuanBnBjoGRUY/mike_land.jpg?sha=924244bf"], ["section", "am"], ["twitter", "mikepland"]]
+  [1m[35m (2.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)  [["name", "Nathan Hileman"], ["photo_url", "http://www.codemountain.com/media/BAhbBlsHOgdmZkkiMy9hcHAvcHVibGljL3N0dWRlbnRfYXZhdGFycy9uYXRoYW5faGlsZW1hbi5qcGcGOgZFRg/nathan_hileman.jpg?sha=2df5028b"], ["section", "am"], ["twitter", "n8hileman"]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)[0m  [["name", "Ryan Waits"], ["photo_url", "http://www.codemountain.com/media/BAhbBlsHOgdmZkkiLy9hcHAvcHVibGljL3N0dWRlbnRfYXZhdGFycy9yeWFuX3dhaXRzLmpwZwY6BkVG/ryan_waits.jpg?sha=0333bf8c"], ["section", "am"], ["twitter", "ryan_waits"]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  Rendered students/section.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 200ms (Views: 3.5ms | ActiveRecord: 31.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-27 20:39:55 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-27 20:39:55 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-27 20:39:55 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-27 20:39:55 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-27 20:39:55 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-27 20:39:55 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/students/pm" for 127.0.0.1 at 2013-01-27 20:42:38 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"pm"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)  [["name", "AJ"], ["photo_url", "http://www.codemountain.com/media/BAhbBlsHOgdmZkkiLi9hcHAvYXBwL2Fzc2V0cy9pbWFnZXMvbWNwcm9ncmFtZXJzb24ucG5nBjoGRUY/mcprogramerson.png?sha=ca5b2267"], ["section", "pm"], ["twitter", ""]]
+  [1m[36m (2.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)[0m  [["name", "Alex Soble"], ["photo_url", "http://www.codemountain.com/media/BAhbBlsHOgdmZkkiLy9hcHAvcHVibGljL3N0dWRlbnRfYXZhdGFycy9hbGV4X3NvYmxlLmpwZwY6BkVG/alex_soble.jpg?sha=e1bc1c09"], ["section", "pm"], ["twitter", "alexsoble"]]
+  [1m[35m (1.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)  [["name", "Ankur Patel"], ["photo_url", "http://www.codemountain.com/media/BAhbBlsHOgdmZkkiMC9hcHAvcHVibGljL3N0dWRlbnRfYXZhdGFycy9hbmt1cl9wYXRlbC5qcGcGOgZFRg/ankur_patel.jpg?sha=8bcc8528"], ["section", "pm"], ["twitter", "ajpatel7"]]
+  [1m[36m (1.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)[0m  [["name", "Chris Mckay"], ["photo_url", "http://www.codemountain.com/media/BAhbBlsHOgdmZkkiMC9hcHAvcHVibGljL3N0dWRlbnRfYXZhdGFycy9jaHJpc19tY2theS5qcGcGOgZFRg/chris_mckay.jpg?sha=13978fb5"], ["section", "pm"], ["twitter", ""]]
+  [1m[35m (1.2ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)  [["name", "Colin Kuhn"], ["photo_url", "http://www.codemountain.com/media/BAhbBlsHOgdmZkkiLy9hcHAvcHVibGljL3N0dWRlbnRfYXZhdGFycy9jb2xpbl9rdWhuLmpwZwY6BkVG/colin_kuhn.jpg?sha=a2e8d201"], ["section", "pm"], ["twitter", ""]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)[0m  [["name", "Dillon Murphy"], ["photo_url", "http://www.codemountain.com/media/BAhbBlsHOgdmZkkiLi9hcHAvYXBwL2Fzc2V0cy9pbWFnZXMvbWNwcm9ncmFtZXJzb24ucG5nBjoGRUY/mcprogramerson.png?sha=ca5b2267"], ["section", "pm"], ["twitter", "gdillonmurphy"]]
+  [1m[35m (1.4ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)  [["name", "Grant Griffin"], ["photo_url", "http://www.codemountain.com/media/BAhbBlsHOgdmZkkiMi9hcHAvcHVibGljL3N0dWRlbnRfYXZhdGFycy9ncmFudF9ncmlmZmluLmpwZwY6BkVG/grant_griffin.jpg?sha=c77fec04"], ["section", "pm"], ["twitter", ""]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)[0m  [["name", "Jonathan Jasper"], ["photo_url", "http://www.codemountain.com/media/BAhbBlsHOgdmZkkiNC9hcHAvcHVibGljL3N0dWRlbnRfYXZhdGFycy9qb25hdGhhbl9qYXNwZXIuanBnBjoGRUY/jonathan_jasper.jpg?sha=449f4533"], ["section", "pm"], ["twitter", "jjasper_1"]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)  [["name", "Larry Gust"], ["photo_url", "http://www.codemountain.com/media/BAhbBlsHOgdmZkkiLy9hcHAvcHVibGljL3N0dWRlbnRfYXZhdGFycy9sYXJyeV9ndXN0LmpwZwY6BkVG/larry_gust.jpg?sha=da785743"], ["section", "pm"], ["twitter", "got_gust"]]
+  [1m[36m (2.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)[0m  [["name", "Matthew Rieger"], ["photo_url", "http://www.codemountain.com/media/BAhbBlsHOgdmZkkiMy9hcHAvcHVibGljL3N0dWRlbnRfYXZhdGFycy9tYXR0aGV3X3JpZWdlci5qcGcGOgZFRg/matthew_rieger.jpg?sha=8872e8ce"], ["section", "pm"], ["twitter", "mrieger"]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)  [["name", "Michael Crismali"], ["photo_url", "http://www.codemountain.com/media/BAhbBlsHOgdmZkkiNS9hcHAvcHVibGljL3N0dWRlbnRfYXZhdGFycy9taWNoYWVsX2NyaXNtYWxpLmpwZwY6BkVG/michael_crismali.jpg?sha=c37950c1"], ["section", "pm"], ["twitter", "MichaelCrismali"]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)[0m  [["name", "Muhammad Meigooni"], ["photo_url", "http://www.codemountain.com/media/BAhbBlsHOgdmZkkiNi9hcHAvcHVibGljL3N0dWRlbnRfYXZhdGFycy9tdWhhbW1hZF9tZWlnb29uaS5qcGcGOgZFRg/muhammad_meigooni.jpg?sha=4173f1b9"], ["section", "pm"], ["twitter", "mmeigooni"]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)  [["name", "Natasha Postolovski"], ["photo_url", "http://www.codemountain.com/media/BAhbBlsHOgdmZkkiOC9hcHAvcHVibGljL3N0dWRlbnRfYXZhdGFycy9uYXRhc2hhX3Bvc3RvbG92c2tpLmpwZwY6BkVG/natasha_postolovski.jpg?sha=5731abc3"], ["section", "pm"], ["twitter", "npostolovski"]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)[0m  [["name", "Pamela Miller"], ["photo_url", "http://www.codemountain.com/media/BAhbBlsHOgdmZkkiMi9hcHAvcHVibGljL3N0dWRlbnRfYXZhdGFycy9wYW1lbGFfbWlsbGVyLmpwZwY6BkVG/pamela_miller.jpg?sha=a4ca34f4"], ["section", "pm"], ["twitter", "bug_scout"]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)  [["name", "Scott Golas"], ["photo_url", "http://www.codemountain.com/media/BAhbBlsHOgdmZkkiMC9hcHAvcHVibGljL3N0dWRlbnRfYXZhdGFycy9zY290dF9nb2xhcy5qcGcGOgZFRg/scott_golas.jpg?sha=8616af25"], ["section", "pm"], ["twitter", "scott_golas"]]
+  [1m[36m (2.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)[0m  [["name", "Thomas Miller"], ["photo_url", "http://www.codemountain.com/media/BAhbBlsHOgdmZkkiMi9hcHAvcHVibGljL3N0dWRlbnRfYXZhdGFycy90aG9tYXNfbWlsbGVyLmpwZwY6BkVG/thomas_miller.jpg?sha=4a07d13d"], ["section", "pm"], ["twitter", "tommillertime"]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)  [["name", "Ty Diamse"], ["photo_url", "http://www.codemountain.com/media/BAhbBlsHOgdmZkkiLi9hcHAvcHVibGljL3N0dWRlbnRfYXZhdGFycy90eV9kaWFtc2UuanBnBjoGRUY/ty_diamse.jpg?sha=9a673185"], ["section", "pm"], ["twitter", "tydiamse"]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "students" ("name", "photo_url", "section", "twitter") VALUES (?, ?, ?, ?)[0m  [["name", "Will Piers"], ["photo_url", "http://www.codemountain.com/media/BAhbBlsHOgdmZkkiLy9hcHAvcHVibGljL3N0dWRlbnRfYXZhdGFycy93aWxsX3BpZXJzLmpwZwY6BkVG/will_piers.jpg?sha=6aca85eb"], ["section", "pm"], ["twitter", "willpiers"]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  Rendered students/section.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 219ms (Views: 3.1ms | ActiveRecord: 28.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-27 20:42:38 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-27 20:42:38 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-27 20:42:38 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-27 20:42:38 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-27 20:42:38 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-27 20:42:38 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-30 16:07:46 -0600
+Connecting to database specified by database.yml
+Processing by StudentsController#index as HTML
+  Rendered students/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 111ms (Views: 111.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 16:07:47 -0600
+Served asset /script.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 16:07:47 -0600
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 16:07:47 -0600
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 16:07:47 -0600
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 16:07:47 -0600
+Served asset /jquery.js - 200 OK (1ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 16:07:47 -0600
+Served asset /style.css - 200 OK (1ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-30 16:07:47 -0600
+Served asset /pattern9.jpg - 200 OK (15ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-30 16:21:39 -0600
+Processing by StudentsController#index as HTML
+  Rendered students/_students.html.erb (3.7ms)
+  Rendered students/index.html.erb within layouts/application (6.5ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (undefined method `shuffle' for nil:NilClass):
+    1: <div class = "container">
+    2:   <ul>
+    3:   <% @students.shuffle.each do |student| %>
+    4:     <li>
+    5:     <% if student.twitter != "" %>
+    6:       <a href=<%="https://twitter.com/#{student.twitter}"%>>
+  app/views/students/_students.html.erb:3:in `_app_views_students__students_html_erb___1268588803356843835_70240197418140'
+  app/views/students/index.html.erb:31:in `_app_views_students_index_html_erb__4183496912616357319_70240236706740'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-30 16:22:25 -0600
+Processing by StudentsController#index as HTML
+  Rendered students/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 19ms (Views: 18.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 16:22:25 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 16:22:25 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 16:22:25 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 16:22:25 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 16:22:25 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 16:22:25 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/students/am" for 127.0.0.1 at 2013-01-30 16:22:31 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"am"}
+Completed 500 Internal Server Error in 0ms
+
+Errno::ENOENT (No such file or directory - http://tslwebdev.herokuapp.com/am.json):
+  app/controllers/students_controller.rb:17:in `initialize'
+  app/controllers/students_controller.rb:17:in `open'
+  app/controllers/students_controller.rb:17:in `section'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.7ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-30 19:41:08 -0600
+Connecting to database specified by database.yml
+
+ActionController::RoutingError (undefined local variable or method `student_hash' for main:Object):
+  app/controllers/students_controller.rb:34:in `<top (required)>'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (5.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-30 19:41:29 -0600
+
+SyntaxError (/Users/davekaplan/Projects/YearbookApp/app/controllers/students_controller.rb:32: syntax error, unexpected keyword_end, expecting $end):
+  activesupport (3.2.11) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:469:in `block in load_file'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:192:in `block in const_missing'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.11) lib/active_support/inflector/methods.rb:230:in `block in constantize'
+  activesupport (3.2.11) lib/active_support/inflector/methods.rb:229:in `each'
+  activesupport (3.2.11) lib/active_support/inflector/methods.rb:229:in `constantize'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.11) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.11) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.11) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.11) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.4) lib/rack/etag.rb:23:in `call'
+  rack (1.4.4) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.4) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.4) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.11) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.11) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:405:in `_run__3802988210839745626__call__3064931491912380462__callbacks'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.11) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.4) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.4) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/davekaplan/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/davekaplan/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/davekaplan/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (17.6ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (37.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-30 19:41:58 -0600
+
+SyntaxError (/Users/davekaplan/Projects/YearbookApp/app/controllers/students_controller.rb:32: syntax error, unexpected keyword_end, expecting $end):
+  activesupport (3.2.11) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:469:in `block in load_file'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:192:in `block in const_missing'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.11) lib/active_support/inflector/methods.rb:230:in `block in constantize'
+  activesupport (3.2.11) lib/active_support/inflector/methods.rb:229:in `each'
+  activesupport (3.2.11) lib/active_support/inflector/methods.rb:229:in `constantize'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.11) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.11) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.11) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.11) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.4) lib/rack/etag.rb:23:in `call'
+  rack (1.4.4) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.4) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.4) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.11) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.11) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:405:in `_run__3802988210839745626__call__3064931491912380462__callbacks'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.11) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.4) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.4) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/davekaplan/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/davekaplan/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/davekaplan/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-30 19:42:12 -0600
+Processing by StudentsController#index as HTML
+  [1m[36mStudent Load (0.2ms)[0m  [1mSELECT "students".* FROM "students" [0m
+  Rendered students/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 112ms (Views: 93.3ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 19:42:12 -0600
+Served asset /script.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 19:42:12 -0600
+Served asset /jquery.js - 200 OK (5ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 19:42:12 -0600
+Served asset /style.css - 200 OK (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 19:42:12 -0600
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 19:42:12 -0600
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 19:42:12 -0600
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-30 19:42:12 -0600
+Served asset /pattern9.jpg - 200 OK (24ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-30 19:42:36 -0600
+Processing by StudentsController#index as HTML
+  [1m[35mStudent Load (0.2ms)[0m  SELECT "students".* FROM "students" 
+  Rendered students/_students.html.erb (2.7ms)
+  Rendered students/index.html.erb within layouts/application (56.7ms)
+Completed 200 OK in 63ms (Views: 60.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 19:42:36 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 19:42:36 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 19:42:36 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 19:42:36 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 19:42:36 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 19:42:36 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-30 19:42:36 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-30 19:43:11 -0600
+Processing by StudentsController#index as HTML
+  [1m[36mStudent Load (0.3ms)[0m  [1mSELECT "students".* FROM "students" [0m
+  Rendered students/_students.html.erb (1.0ms)
+  Rendered students/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 6ms (Views: 4.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 19:43:11 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 19:43:11 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 19:43:11 -0600
+Served asset /script.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 19:43:11 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 19:43:11 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 19:43:11 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-30 19:43:11 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students/pm" for 127.0.0.1 at 2013-01-30 19:50:12 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"pm"}
+  Rendered students/section.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 19:50:12 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 19:50:12 -0600
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 19:50:12 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 19:50:12 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 19:50:12 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 19:50:12 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-30 19:50:12 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students" for 127.0.0.1 at 2013-01-30 19:51:04 -0600
+Processing by StudentsController#index as HTML
+  [1m[35mStudent Load (0.2ms)[0m  SELECT "students".* FROM "students" 
+  Rendered students/_students.html.erb (0.9ms)
+  Rendered students/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 19:51:04 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 19:51:04 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 19:51:04 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 19:51:04 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 19:51:04 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 19:51:04 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-30 19:51:04 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-30 19:51:06 -0600
+Processing by StudentsController#index as HTML
+  [1m[36mStudent Load (0.2ms)[0m  [1mSELECT "students".* FROM "students" [0m
+  Rendered students/_students.html.erb (1.0ms)
+  Rendered students/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 19:51:06 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 19:51:06 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 19:51:06 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 19:51:06 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 19:51:06 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 19:51:06 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/students/pm" for 127.0.0.1 at 2013-01-30 19:51:17 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"pm"}
+  Rendered students/section.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 19:51:17 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 19:51:17 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 19:51:17 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 19:51:17 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 19:51:17 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 19:51:17 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-30 19:51:17 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students/pm" for 127.0.0.1 at 2013-01-30 19:53:45 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"pm"}
+  Rendered students/section.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 19:53:45 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 19:53:45 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 19:53:45 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 19:53:45 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 19:53:45 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 19:53:45 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-30 19:53:58 -0600
+Processing by StudentsController#index as HTML
+  [1m[35mStudent Load (0.2ms)[0m  SELECT "students".* FROM "students" 
+  Rendered students/_students.html.erb (1.0ms)
+  Rendered students/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 6ms (Views: 4.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 19:53:58 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 19:53:58 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 19:53:58 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 19:53:58 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 19:53:58 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 19:53:58 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-30 19:55:33 -0600
+Processing by StudentsController#index as HTML
+  [1m[36mStudent Load (0.2ms)[0m  [1mSELECT "students".* FROM "students" [0m
+  Rendered students/_students.html.erb (0.9ms)
+  Rendered students/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 40ms (Views: 4.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/students/pm" for 127.0.0.1 at 2013-01-30 19:57:14 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"pm"}
+  Rendered students/section.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 3ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 19:57:14 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 19:57:14 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 19:57:14 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 19:57:14 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 19:57:14 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 19:57:14 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/students/pm" for 127.0.0.1 at 2013-01-30 19:57:21 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"pm"}
+  Rendered students/section.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 19:57:21 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 19:57:21 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 19:57:21 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 19:57:21 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 19:57:21 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 19:57:21 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/students/pm" for 127.0.0.1 at 2013-01-30 19:57:44 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"pm"}
+  [1m[35mStudent Load (0.2ms)[0m  SELECT "students".* FROM "students" 
+  Rendered students/section.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 10ms (Views: 3.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 19:57:44 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 19:57:44 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 19:57:44 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 19:57:44 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 19:57:44 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 19:57:44 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-30 19:57:47 -0600
+Processing by StudentsController#index as HTML
+  [1m[36mStudent Load (0.2ms)[0m  [1mSELECT "students".* FROM "students" [0m
+  Rendered students/_students.html.erb (1.0ms)
+  Rendered students/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 6ms (Views: 4.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 19:57:47 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 19:57:47 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 19:57:47 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 19:57:47 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 19:57:47 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 19:57:47 -0600
+Served asset /application.js - 304 Not Modified (23ms)
+
+
+Started GET "/students/am" for 127.0.0.1 at 2013-01-30 19:57:49 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"am"}
+  [1m[35mStudent Load (0.3ms)[0m  SELECT "students".* FROM "students" 
+  Rendered students/section.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5ms (Views: 3.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 19:57:49 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 19:57:49 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 19:57:49 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 19:57:49 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 19:57:49 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 19:57:49 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/students/am" for 127.0.0.1 at 2013-01-30 19:58:52 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"am"}
+  [1m[36mStudent Load (0.2ms)[0m  [1mSELECT "students".* FROM "students" [0m
+  Rendered students/_students.html.erb (0.9ms)
+  Rendered students/section.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 11ms (Views: 4.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 19:58:52 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 19:58:52 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 19:58:52 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 19:58:52 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 19:58:52 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 19:58:52 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-30 19:59:49 -0600
+Processing by StudentsController#index as HTML
+  [1m[35mStudent Load (0.3ms)[0m  SELECT "students".* FROM "students" 
+  Rendered students/_nav.html.erb (0.4ms)
+  Rendered students/_students.html.erb (1.0ms)
+  Rendered students/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 8ms (Views: 5.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 19:59:49 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 19:59:49 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 19:59:49 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 19:59:49 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 19:59:49 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 19:59:49 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-30 19:59:49 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students/pm" for 127.0.0.1 at 2013-01-30 19:59:52 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"pm"}
+  [1m[36mStudent Load (0.2ms)[0m  [1mSELECT "students".* FROM "students" [0m
+  Rendered students/_students.html.erb (0.9ms)
+  Rendered students/section.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 6ms (Views: 4.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 19:59:52 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 19:59:52 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 19:59:52 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 19:59:52 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 19:59:52 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 19:59:52 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-30 19:59:52 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students/pm" for 127.0.0.1 at 2013-01-30 20:00:38 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"pm"}
+  [1m[35mStudent Load (0.2ms)[0m  SELECT "students".* FROM "students" 
+  Rendered students/_nav.html.erb (0.0ms)
+  Rendered students/_students.html.erb (1.0ms)
+  Rendered students/section.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 20:00:38 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 20:00:38 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 20:00:38 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 20:00:38 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 20:00:38 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 20:00:38 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-30 20:00:38 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students/am" for 127.0.0.1 at 2013-01-30 20:00:41 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"am"}
+  [1m[36mStudent Load (0.2ms)[0m  [1mSELECT "students".* FROM "students" [0m
+  Rendered students/_nav.html.erb (0.0ms)
+  Rendered students/_students.html.erb (1.0ms)
+  Rendered students/section.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 20:00:41 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 20:00:41 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 20:00:41 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 20:00:41 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 20:00:41 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 20:00:41 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-30 20:00:41 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students/pm" for 127.0.0.1 at 2013-01-30 20:00:44 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"pm"}
+  [1m[35mStudent Load (0.4ms)[0m  SELECT "students".* FROM "students" 
+  Rendered students/_nav.html.erb (0.0ms)
+  Rendered students/_students.html.erb (1.0ms)
+  Rendered students/section.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 7ms (Views: 4.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 20:00:44 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 20:00:44 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 20:00:44 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 20:00:44 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 20:00:44 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 20:00:44 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-30 20:00:44 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-30 20:01:22 -0600
+Processing by StudentsController#index as HTML
+  [1m[36mStudent Load (0.2ms)[0m  [1mSELECT "students".* FROM "students" [0m
+  Rendered students/_nav.html.erb (0.0ms)
+  Rendered students/_students.html.erb (1.0ms)
+  Rendered students/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 11ms (Views: 5.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 20:01:22 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 20:01:22 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 20:01:22 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 20:01:22 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 20:01:22 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 20:01:22 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-30 20:01:22 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students/pm" for 127.0.0.1 at 2013-01-30 20:01:24 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"pm"}
+  [1m[35mStudent Load (0.2ms)[0m  SELECT "students".* FROM "students" 
+  Rendered students/_nav.html.erb (0.0ms)
+  Rendered students/_students.html.erb (1.0ms)
+  Rendered students/section.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 7ms (Views: 4.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 20:01:24 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 20:01:24 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 20:01:24 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 20:01:24 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 20:01:24 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 20:01:24 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-30 20:01:24 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students/am" for 127.0.0.1 at 2013-01-30 20:01:26 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"am"}
+  [1m[36mStudent Load (0.3ms)[0m  [1mSELECT "students".* FROM "students" [0m
+  Rendered students/_nav.html.erb (0.0ms)
+  Rendered students/_students.html.erb (1.1ms)
+  Rendered students/section.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 29ms (Views: 27.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 20:01:26 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 20:01:26 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 20:01:26 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 20:01:26 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 20:01:26 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 20:01:26 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-30 20:01:26 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students/pm" for 127.0.0.1 at 2013-01-30 20:01:32 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"pm"}
+  [1m[35mStudent Load (0.3ms)[0m  SELECT "students".* FROM "students" 
+  Rendered students/_nav.html.erb (0.0ms)
+  Rendered students/_students.html.erb (1.6ms)
+  Rendered students/section.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 7ms (Views: 5.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 20:01:32 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 20:01:32 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 20:01:32 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 20:01:32 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 20:01:32 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 20:01:32 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-30 20:01:32 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students/pm" for 127.0.0.1 at 2013-01-30 20:02:06 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"pm"}
+  [1m[36mStudent Load (0.2ms)[0m  [1mSELECT "students".* FROM "students" [0m
+  Rendered students/_nav.html.erb (0.5ms)
+  Rendered students/_students.html.erb (1.0ms)
+  Rendered students/section.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 7ms (Views: 5.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 20:02:06 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 20:02:06 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 20:02:06 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 20:02:06 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 20:02:06 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 20:02:06 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-30 20:02:06 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-30 20:02:18 -0600
+Processing by StudentsController#index as HTML
+  [1m[35mStudent Load (0.2ms)[0m  SELECT "students".* FROM "students" 
+  Rendered students/_nav.html.erb (0.0ms)
+  Rendered students/_students.html.erb (0.9ms)
+  Rendered students/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 6ms (Views: 4.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 20:02:18 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 20:02:18 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 20:02:18 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 20:02:18 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 20:02:18 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 20:02:18 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-30 20:02:18 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students/am" for 127.0.0.1 at 2013-01-30 20:02:20 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"am"}
+  [1m[36mStudent Load (0.2ms)[0m  [1mSELECT "students".* FROM "students" [0m
+  Rendered students/_nav.html.erb (0.0ms)
+  Rendered students/_students.html.erb (0.9ms)
+  Rendered students/section.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 6ms (Views: 4.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 20:02:20 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 20:02:20 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 20:02:20 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 20:02:20 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 20:02:20 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 20:02:20 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-30 20:02:20 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students/am" for 127.0.0.1 at 2013-01-30 20:02:36 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"am"}
+  [1m[35mStudent Load (0.2ms)[0m  SELECT "students".* FROM "students" 
+  Rendered students/_nav.html.erb (0.0ms)
+  Rendered students/_students.html.erb (0.9ms)
+  Rendered students/section.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 32ms (Views: 4.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 20:02:36 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 20:02:36 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 20:02:36 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 20:02:36 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 20:02:36 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 20:02:36 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-30 20:02:36 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students/pm" for 127.0.0.1 at 2013-01-30 20:02:37 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"pm"}
+  [1m[36mStudent Load (0.3ms)[0m  [1mSELECT "students".* FROM "students" [0m
+  Rendered students/_nav.html.erb (0.0ms)
+  Rendered students/_students.html.erb (0.9ms)
+  Rendered students/section.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 6ms (Views: 4.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 20:02:37 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 20:02:37 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 20:02:37 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 20:02:37 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 20:02:37 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 20:02:37 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-30 20:02:37 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students" for 127.0.0.1 at 2013-01-30 20:02:40 -0600
+Processing by StudentsController#index as HTML
+  [1m[35mStudent Load (0.2ms)[0m  SELECT "students".* FROM "students" 
+  Rendered students/_nav.html.erb (0.0ms)
+  Rendered students/_students.html.erb (1.0ms)
+  Rendered students/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 7ms (Views: 4.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 20:02:40 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 20:02:40 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 20:02:40 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 20:02:40 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 20:02:40 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 20:02:40 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-30 20:02:40 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students/pm" for 127.0.0.1 at 2013-01-30 20:02:46 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"pm"}
+  [1m[36mStudent Load (0.3ms)[0m  [1mSELECT "students".* FROM "students" [0m
+  Rendered students/_nav.html.erb (0.4ms)
+  Rendered students/_students.html.erb (1.0ms)
+  Rendered students/section.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 7ms (Views: 5.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 20:02:46 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 20:02:46 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 20:02:46 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 20:02:46 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 20:02:46 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 20:02:46 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-30 20:02:46 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students/am" for 127.0.0.1 at 2013-01-30 20:02:48 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"am"}
+  [1m[35mStudent Load (0.3ms)[0m  SELECT "students".* FROM "students" 
+  Rendered students/_nav.html.erb (0.0ms)
+  Rendered students/_students.html.erb (1.0ms)
+  Rendered students/section.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 20:02:48 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 20:02:48 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 20:02:48 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 20:02:48 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 20:02:48 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 20:02:48 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-30 20:02:48 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students/pm" for 127.0.0.1 at 2013-01-30 20:02:50 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"pm"}
+  [1m[36mStudent Load (0.2ms)[0m  [1mSELECT "students".* FROM "students" [0m
+  Rendered students/_nav.html.erb (0.0ms)
+  Rendered students/_students.html.erb (1.0ms)
+  Rendered students/section.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 6ms (Views: 4.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 20:02:50 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 20:02:50 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 20:02:50 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 20:02:50 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 20:02:50 -0600
+Served asset /application.js - 304 Not Modified (26ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 20:02:50 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-30 20:02:50 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students" for 127.0.0.1 at 2013-01-30 20:02:51 -0600
+Processing by StudentsController#index as HTML
+  [1m[35mStudent Load (0.3ms)[0m  SELECT "students".* FROM "students" 
+  Rendered students/_nav.html.erb (0.0ms)
+  Rendered students/_students.html.erb (1.0ms)
+  Rendered students/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 7ms (Views: 4.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 20:02:51 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 20:02:51 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 20:02:51 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 20:02:51 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 20:02:51 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 20:02:51 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-30 20:02:51 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students/am" for 127.0.0.1 at 2013-01-30 20:29:50 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"am"}
+  [1m[36mStudent Load (0.2ms)[0m  [1mSELECT "students".* FROM "students" [0m
+  Rendered students/_nav.html.erb (0.0ms)
+  Rendered students/_students.html.erb (0.9ms)
+  Rendered students/section.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 11ms (Views: 4.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 20:29:50 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 20:29:50 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 20:29:50 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 20:29:50 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 20:29:50 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 20:29:50 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-30 20:29:50 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students/pm" for 127.0.0.1 at 2013-01-30 20:55:40 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"pm"}
+  [1m[35mStudent Load (0.2ms)[0m  SELECT "students".* FROM "students" 
+  Rendered students/_nav.html.erb (0.0ms)
+  Rendered students/_students.html.erb (0.5ms)
+  Rendered students/section.html.erb within layouts/application (21.6ms)
+Completed 200 OK in 31ms (Views: 24.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 20:55:40 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 20:55:40 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 20:55:40 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 20:55:40 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 20:55:40 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 20:55:40 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-30 20:55:40 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students/am" for 127.0.0.1 at 2013-01-30 20:55:45 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"am"}
+  [1m[36mStudent Load (0.2ms)[0m  [1mSELECT "students".* FROM "students" [0m
+  Rendered students/_nav.html.erb (0.0ms)
+  Rendered students/_students.html.erb (0.5ms)
+  Rendered students/section.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 6ms (Views: 3.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 20:55:45 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 20:55:45 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 20:55:45 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 20:55:45 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 20:55:45 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 20:55:45 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-30 20:55:45 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students/pm" for 127.0.0.1 at 2013-01-30 20:55:57 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"pm"}
+  [1m[35mStudent Load (0.2ms)[0m  SELECT "students".* FROM "students" 
+Completed 500 Internal Server Error in 6ms
+
+NoMethodError (undefined method `include?' for #<Student:0x007fe0079771d0>):
+  app/controllers/students_controller.rb:21:in `block in section'
+  app/controllers/students_controller.rb:20:in `select'
+  app/controllers/students_controller.rb:20:in `section'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.1ms)
+
+
+Started GET "/students/pm" for 127.0.0.1 at 2013-01-30 20:56:35 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"pm"}
+  [1m[36mStudent Load (0.2ms)[0m  [1mSELECT "students".* FROM "students" [0m
+Completed 500 Internal Server Error in 9ms
+
+NameError (undefined local variable or method `students_all' for #<StudentsController:0x007fe00319d0f8>):
+  app/controllers/students_controller.rb:20:in `section'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.8ms)
+
+
+Started GET "/students/pm" for 127.0.0.1 at 2013-01-30 20:57:10 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"pm"}
+  [1m[35mStudent Load (0.2ms)[0m  SELECT "students".* FROM "students" 
+  Rendered students/_nav.html.erb (0.0ms)
+  Rendered students/_students.html.erb (65.5ms)
+  Rendered students/section.html.erb within layouts/application (67.9ms)
+Completed 500 Internal Server Error in 75ms
+
+ActionView::Template::Error (undefined method `shuffle' for nil:NilClass):
+    1: <div class = "container">
+    2:   <ul>
+    3:   <% @students.shuffle.each do |student| %>
+    4:     <li>
+    5:     <% if student.twitter != "" %>
+    6:       <a href=<%="https://twitter.com/#{student.twitter}"%>>
+  app/views/students/_students.html.erb:3:in `_app_views_students__students_html_erb__1947951957529960175_70300056262280'
+  app/views/students/section.html.erb:11:in `_app_views_students_section_html_erb___3396130883781511044_70300101457660'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.1ms)
+
+
+Started GET "/students/pm" for 127.0.0.1 at 2013-01-30 20:57:26 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"pm"}
+  [1m[36mStudent Load (0.3ms)[0m  [1mSELECT "students".* FROM "students" [0m
+  Rendered students/section.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 6ms (Views: 4.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 20:57:26 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 20:57:26 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 20:57:26 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 20:57:26 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 20:57:26 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 20:57:26 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/students/pm" for 127.0.0.1 at 2013-01-30 20:59:05 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"pm"}
+  [1m[35mStudent Load (0.2ms)[0m  SELECT "students".* FROM "students" 
+  Rendered students/section.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 6ms (Views: 3.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 20:59:05 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 20:59:05 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 20:59:05 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 20:59:05 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 20:59:05 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 20:59:05 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/students/pm" for 127.0.0.1 at 2013-01-30 20:59:13 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"pm"}
+  [1m[36mStudent Load (0.2ms)[0m  [1mSELECT "students".* FROM "students" [0m
+  Rendered students/section.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 5ms (Views: 3.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 20:59:13 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 20:59:13 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 20:59:13 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 20:59:13 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 20:59:13 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 20:59:13 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/students/pm" for 127.0.0.1 at 2013-01-30 20:59:32 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"pm"}
+  [1m[35mStudent Load (0.3ms)[0m  SELECT "students".* FROM "students" 
+  Rendered students/section.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (undefined method `include' for "am":String):
+    6:   Class</h1>
+    7: 
+    8:   <% students = @students_all.select do |s|  %>
+    9:     <%= s.section.include("am") %>
+    10:     <% end %>
+    11: 
+    12: <%# render 'nav' %>
+  app/views/students/section.html.erb:9:in `block in _app_views_students_section_html_erb___3396130883781511044_70300088897300'
+  app/views/students/section.html.erb:8:in `select'
+  app/views/students/section.html.erb:8:in `_app_views_students_section_html_erb___3396130883781511044_70300088897300'
+
+
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/davekaplan/.rvm/gems/ruby-1.9.3-p362@rails32/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.2ms)
+
+
+Started GET "/students/pm" for 127.0.0.1 at 2013-01-30 20:59:38 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"pm"}
+  [1m[36mStudent Load (0.3ms)[0m  [1mSELECT "students".* FROM "students" [0m
+  Rendered students/section.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 5ms (Views: 3.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 20:59:38 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 20:59:38 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 20:59:38 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 20:59:38 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 20:59:38 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 20:59:38 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/students/pm" for 127.0.0.1 at 2013-01-30 21:00:17 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"pm"}
+  [1m[35mStudent Load (0.2ms)[0m  SELECT "students".* FROM "students" 
+  Rendered students/section.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 21:00:17 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 21:00:17 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 21:00:17 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 21:00:17 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 21:00:17 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 21:00:17 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/students/pm" for 127.0.0.1 at 2013-01-30 21:21:54 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"pm"}
+  [1m[36mStudent Load (0.2ms)[0m  [1mSELECT "students".* FROM "students" [0m
+  Rendered students/section.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 10ms (Views: 4.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 21:21:54 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 21:21:54 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 21:21:54 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 21:21:54 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 21:21:54 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 21:21:54 -0600
+Served asset /application.js - 304 Not Modified (21ms)
+
+
+Started GET "/students/am" for 127.0.0.1 at 2013-01-30 21:22:06 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"am"}
+  [1m[35mStudent Load (0.2ms)[0m  SELECT "students".* FROM "students" 
+  Rendered students/section.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 5ms (Views: 3.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 21:22:06 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 21:22:06 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 21:22:06 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 21:22:06 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 21:22:06 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 21:22:06 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-30 21:22:06 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-30 21:22:20 -0600
+Processing by StudentsController#index as HTML
+  [1m[36mStudent Load (0.3ms)[0m  [1mSELECT "students".* FROM "students" [0m
+  Rendered students/_nav.html.erb (0.0ms)
+  Rendered students/_students.html.erb (1.0ms)
+  Rendered students/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 7ms (Views: 5.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 21:22:20 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 21:22:20 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 21:22:20 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 21:22:20 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 21:22:20 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 21:22:20 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/students/pm" for 127.0.0.1 at 2013-01-30 21:22:22 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"pm"}
+  [1m[35mStudent Load (0.2ms)[0m  SELECT "students".* FROM "students" 
+  Rendered students/section.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 5ms (Views: 3.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 21:22:22 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 21:22:22 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 21:22:22 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 21:22:22 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 21:22:22 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 21:22:22 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-30 21:22:22 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-30 21:22:48 -0600
+Processing by StudentsController#index as HTML
+  [1m[36mStudent Load (0.2ms)[0m  [1mSELECT "students".* FROM "students" [0m
+  Rendered students/_nav.html.erb (0.0ms)
+  Rendered students/_students.html.erb (0.9ms)
+  Rendered students/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 11ms (Views: 4.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 21:22:49 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 21:22:49 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 21:22:49 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 21:22:49 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 21:22:49 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 21:22:49 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/students/am" for 127.0.0.1 at 2013-01-30 21:22:50 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"am"}
+  [1m[35mStudent Load (0.2ms)[0m  SELECT "students".* FROM "students" 
+  Rendered students/section.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 5ms (Views: 3.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 21:22:50 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 21:22:50 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 21:22:50 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 21:22:50 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 21:22:50 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 21:22:50 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-30 21:22:50 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-30 21:22:52 -0600
+Processing by StudentsController#index as HTML
+  [1m[36mStudent Load (0.2ms)[0m  [1mSELECT "students".* FROM "students" [0m
+  Rendered students/_nav.html.erb (0.0ms)
+  Rendered students/_students.html.erb (1.0ms)
+  Rendered students/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 7ms (Views: 4.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 21:22:52 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 21:22:52 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 21:22:52 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 21:22:52 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 21:22:52 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 21:22:52 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/students/pm" for 127.0.0.1 at 2013-01-30 21:22:53 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"pm"}
+  [1m[35mStudent Load (0.2ms)[0m  SELECT "students".* FROM "students" 
+  Rendered students/section.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 5ms (Views: 3.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 21:22:53 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 21:22:53 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 21:22:53 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 21:22:53 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 21:22:53 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 21:22:53 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-30 21:22:54 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students/pm" for 127.0.0.1 at 2013-01-30 21:23:17 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"pm"}
+  [1m[36mStudent Load (0.2ms)[0m  [1mSELECT "students".* FROM "students" [0m
+  Rendered students/_nav.html.erb (0.0ms)
+  Rendered students/_students.html.erb (0.5ms)
+  Rendered students/section.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 6ms (Views: 4.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 21:23:17 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 21:23:17 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 21:23:17 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 21:23:17 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 21:23:17 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 21:23:17 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/students/am" for 127.0.0.1 at 2013-01-30 21:23:22 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"am"}
+  [1m[35mStudent Load (0.2ms)[0m  SELECT "students".* FROM "students" 
+  Rendered students/_nav.html.erb (0.0ms)
+  Rendered students/_students.html.erb (0.5ms)
+  Rendered students/section.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 6ms (Views: 4.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 21:23:22 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 21:23:22 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 21:23:22 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 21:23:22 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 21:23:22 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 21:23:22 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-30 21:23:22 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students/pm" for 127.0.0.1 at 2013-01-30 21:23:26 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"pm"}
+  [1m[36mStudent Load (0.3ms)[0m  [1mSELECT "students".* FROM "students" [0m
+  Rendered students/_nav.html.erb (0.0ms)
+  Rendered students/_students.html.erb (0.7ms)
+  Rendered students/section.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 6ms (Views: 4.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 21:23:26 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 21:23:26 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 21:23:26 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 21:23:26 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 21:23:26 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 21:23:26 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-30 21:23:26 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students/am" for 127.0.0.1 at 2013-01-30 21:23:28 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"am"}
+  [1m[35mStudent Load (0.3ms)[0m  SELECT "students".* FROM "students" 
+  Rendered students/_nav.html.erb (0.0ms)
+  Rendered students/_students.html.erb (0.5ms)
+  Rendered students/section.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 6ms (Views: 3.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 21:23:28 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 21:23:28 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 21:23:28 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 21:23:28 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 21:23:28 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 21:23:28 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-30 21:23:28 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students" for 127.0.0.1 at 2013-01-30 21:23:29 -0600
+Processing by StudentsController#index as HTML
+  [1m[36mStudent Load (0.3ms)[0m  [1mSELECT "students".* FROM "students" [0m
+  Rendered students/_nav.html.erb (0.0ms)
+  Rendered students/_students.html.erb (1.1ms)
+  Rendered students/index.html.erb within layouts/application (25.5ms)
+Completed 200 OK in 31ms (Views: 28.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 21:23:29 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 21:23:29 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 21:23:29 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 21:23:29 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 21:23:29 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 21:23:29 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-30 21:23:29 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students/am" for 127.0.0.1 at 2013-01-30 21:23:37 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"am"}
+  [1m[35mStudent Load (0.2ms)[0m  SELECT "students".* FROM "students" 
+  Rendered students/_nav.html.erb (0.0ms)
+  Rendered students/_students.html.erb (0.5ms)
+  Rendered students/section.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 6ms (Views: 4.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 21:23:37 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 21:23:37 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 21:23:37 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 21:23:37 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 21:23:37 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 21:23:37 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-30 21:23:37 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students/pm" for 127.0.0.1 at 2013-01-30 21:24:29 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"pm"}
+  [1m[36mStudent Load (0.2ms)[0m  [1mSELECT "students".* FROM "students" [0m
+  Rendered students/_nav.html.erb (0.0ms)
+  Rendered students/_students.html.erb (0.5ms)
+  Rendered students/section.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 21:24:29 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 21:24:29 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 21:24:29 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 21:24:29 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 21:24:29 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 21:24:29 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-30 21:24:29 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students" for 127.0.0.1 at 2013-01-30 21:24:32 -0600
+Processing by StudentsController#index as HTML
+  [1m[35mStudent Load (0.2ms)[0m  SELECT "students".* FROM "students" 
+  Rendered students/_nav.html.erb (0.0ms)
+  Rendered students/_students.html.erb (1.0ms)
+  Rendered students/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 6ms (Views: 4.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 21:24:32 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 21:24:32 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 21:24:32 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 21:24:32 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 21:24:32 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 21:24:32 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-30 21:24:32 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students/pm" for 127.0.0.1 at 2013-01-30 21:24:34 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"pm"}
+  [1m[36mStudent Load (0.3ms)[0m  [1mSELECT "students".* FROM "students" [0m
+  Rendered students/_nav.html.erb (0.0ms)
+  Rendered students/_students.html.erb (0.5ms)
+  Rendered students/section.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 6ms (Views: 3.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 21:24:34 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 21:24:34 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 21:24:34 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 21:24:34 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 21:24:34 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 21:24:34 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-30 21:24:34 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students/am" for 127.0.0.1 at 2013-01-30 21:24:36 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"am"}
+  [1m[35mStudent Load (0.3ms)[0m  SELECT "students".* FROM "students" 
+  Rendered students/_nav.html.erb (0.0ms)
+  Rendered students/_students.html.erb (0.5ms)
+  Rendered students/section.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 6ms (Views: 3.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 21:24:36 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 21:24:36 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 21:24:36 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 21:24:36 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 21:24:36 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 21:24:36 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-30 21:24:36 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students/pm" for 127.0.0.1 at 2013-01-30 21:24:43 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"pm"}
+  [1m[36mStudent Load (0.3ms)[0m  [1mSELECT "students".* FROM "students" [0m
+  Rendered students/_nav.html.erb (0.0ms)
+  Rendered students/_students.html.erb (0.6ms)
+  Rendered students/section.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 7ms (Views: 4.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-30 21:24:43 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-30 21:24:43 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-30 21:24:43 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-30 21:24:43 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-30 21:24:43 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-30 21:24:43 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-30 21:24:43 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)

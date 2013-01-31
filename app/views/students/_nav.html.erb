@@ -1,0 +1,23 @@
+  <ul>
+    <% if @class_section == "am" %>
+      <li class = "active">
+    <% else %>
+      <li>
+    <% end %>
+    <a href="/students/am">AM</a></li>
+
+    <% if @class_section == "pm" %>
+      <li class = "active">
+    <% else %>
+      <li>
+    <% end %>
+    <a href="/students/pm">PM</a></li>
+
+    <% if @class_section == nil %>
+      <li class = "active">
+    <% else %>
+      <li>
+    <% end %>
+    <a href="/students">INDEX</a></li>
+  </ul>
+</nav>
