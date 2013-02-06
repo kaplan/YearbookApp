@@ -22,6 +22,10 @@ end
 
 gem 'jquery-rails'
 
+group :production do
+  gem 'thin'
+end
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
@@ -36,3 +40,11 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+
+# group :development, :test do
+#   gem 'sqlite3'
+# end
+
+# group :production do
+#   gem 'pg'
+# end

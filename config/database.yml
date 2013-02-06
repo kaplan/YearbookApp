@@ -14,3 +14,10 @@ test:
   username: davekaplan
   password:
 
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: YearbookApp_production
+  pool: 5
+  username: YearbookApp
+  password:

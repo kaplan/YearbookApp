@@ -39219,3 +39219,108 @@ Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-31 13:33:58 -0600
 Served asset /pattern9.jpg - 304 Not Modified (0ms)
 Connecting to database specified by database.yml
 Connecting to database specified by database.yml
+
+
+Started GET "/students/am" for 127.0.0.1 at 2013-01-31 15:11:23 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"am"}
+  [1m[35mStudent Load (0.3ms)[0m  SELECT "students".* FROM "students" 
+  Rendered students/_nav.html.erb (0.0ms)
+  Rendered students/_students.html.erb (0.5ms)
+  Rendered students/section.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 6ms (Views: 4.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-31 15:11:23 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-31 15:11:23 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-31 15:11:23 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-31 15:11:23 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-31 15:11:23 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-31 15:11:23 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pattern9.jpg" for 127.0.0.1 at 2013-01-31 15:11:23 -0600
+Served asset /pattern9.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/students/pm" for 127.0.0.1 at 2013-01-31 15:11:24 -0600
+Processing by StudentsController#section as HTML
+  Parameters: {"section"=>"pm"}
+  [1m[36mStudent Load (0.3ms)[0m  [1mSELECT "students".* FROM "students" [0m
+  Rendered students/_nav.html.erb (0.0ms)
+  Rendered students/_students.html.erb (0.5ms)
+  Rendered students/section.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 6ms (Views: 3.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-31 15:11:24 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-31 15:11:24 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-31 15:11:24 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-31 15:11:24 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-31 15:11:24 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-31 15:11:24 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/students" for 127.0.0.1 at 2013-01-31 15:11:25 -0600
+Processing by StudentsController#index as HTML
+  [1m[35mStudent Load (0.4ms)[0m  SELECT "students".* FROM "students" 
+  Rendered students/_nav.html.erb (0.0ms)
+  Rendered students/_students.html.erb (0.9ms)
+  Rendered students/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 7ms (Views: 4.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-31 15:11:25 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-31 15:11:25 -0600
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2013-01-31 15:11:25 -0600
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-31 15:11:25 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-31 15:11:25 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-31 15:11:25 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
